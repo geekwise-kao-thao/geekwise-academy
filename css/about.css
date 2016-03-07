@@ -38,7 +38,7 @@ header nav ul{
 }
 
 header nav ul li{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     display:inline-block;
     height:40%;
     margin:0;
@@ -66,7 +66,7 @@ header nav ul li:nth-child(5){
     width:9%;
 }
 header nav ul li:nth-child(6){
-    width:6%;
+    width:7%;
 }
 header nav ul li:nth-child(7){
     width:9%;
@@ -100,9 +100,11 @@ main img{
 }
 
 main div{
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     position:relative;
     top:8rem;
+    width:100%;
+    height:8rem;
 }
 
 main div p{
@@ -110,6 +112,26 @@ main div p{
     text-align: right;
     text-transform: uppercase;
     font-weight: 700;
+    display: block;
+    float:right;
+}
+
+#signup{
+    background-color:#F9DA0C;
+    height:5rem;
+    width:9rem;
+    position: absolute;
+    top:4.6rem;
+    font-size:1.7rem;
+    transform: translateX(45rem);
+}
+#signup a{
+    position:relative;
+    top: 1.5rem;
+    right:1rem;
+    text-decoration: none;
+    color:#7A1501;
+    display:inline-block;
 }
 
 footer{
@@ -120,156 +142,13 @@ footer{
     color:white;
     height:35rem;
 }
-.fluff{
-    width:70%;
-    display:inline-block;
-    font-size:3rem;
-}
 
-h2{
-    text-transform: uppercase;
+p{
     margin:0;
     padding:0;
-}
-h3{
-    margin:0;
-    padding:0;
-}
-#divider{
-    width:60%;
-    display: inline-block;
+    text-align: left;
 }
 
-.links{
-    display: inline-block;
-    width:70%;
-    height:auto;
-}
 
-.links p:nth-child(1){
-    width:calc(100%/3);
-    float: left;
-    border-right: 1px solid white;
-    display:block;
-    margin:0 auto;
-    height:8rem;
-}
-.links p:nth-child(2){
-    width:calc(99%/3);
-    float: left;
-    border-right: 1px solid white;
-    display:block;
-    margin:0 auto;
-    height:8rem;
-}
-.links p:nth-child(3){
-    width:calc(99%/3);
-    float: right;
-    display:block;
-    margin:0 auto;
-    height:8rem;
-}
-
-.link_images{
-    display: block;
-    margin:0;
-    
-}
-.link_images a{
-    display:inline-block;
-    width:100%
-}
-
-.link_images span{
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    margin:0;
-    padding:0;
-    display: inline-block;
-    height:1.5rem;
-    width:13rem;
-}
-
-/* start of media query, display nav bar as blocks and not inline */
-
-@media only screen and (max-width:767px){
-    
-    
-header{
-    height: 50%;
-}
-
-header nav ul{
-    width:100%;
-    display:block;
-    margin:0 auto;
-}
-
-header nav ul li{
-    display:inline-block;
-    height:calc(100%/7);
-}
-
-header nav ul li:nth-child(1){
-    width:100%;
-}
-header nav ul li:nth-child(2){
-    width:100%;
-}
-header nav ul li:nth-child(3){
-    width:100%;
-}
-header nav ul li:nth-child(4){
-    width:100%;
-}
-header nav ul li:nth-child(5){
-    width:100%;
-}
-header nav ul li:nth-child(6){
-    width:100%;
-}
-header nav ul li:nth-child(7){
-    width:100%;
-}
-
-header nav ul li span{
-    margin:0;
-    padding:0;
-    display: inline-block;
-    height:100%;
-    width:20%;
-    font-weight: 600;
-    
-}
-
-    header nav ul li span:hover{
-    background-color:#F9DA0C;
-}
-    header nav ul li:hover{
-    background-color:white;
-}
-    
-    main img{
-        width:100%;
-    }
-    
-/* adjusting link images and text below it to work for media query */    
-    
-    footer{
-        height: 45rem;   
-    }
-    
-.links{
-    width:100%;
-}
-
-.link_images span{
-    font-size: 1.3rem;
-    width:100%;
-}
-
-    
-}
-
-/* end of landing-page for geekwise-academy */
+/* start of media query */
 
