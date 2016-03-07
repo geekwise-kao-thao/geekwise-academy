@@ -33,12 +33,12 @@ header nav ul{
     padding:0;
     display: inline-block; 
     margin:0 auto;
-    width:40%;
+    width:50rem;
     height:100%;
 }
 
 header nav ul li{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     display:inline-block;
     height:100%;
     margin:0;
@@ -50,25 +50,25 @@ header nav ul li:hover{
 }
 
 header nav ul li:nth-child(1){
-    width:7rem;
+    width:11%;
 }
 header nav ul li:nth-child(2){
-    width:8rem;
+    width:13%;
 }
 header nav ul li:nth-child(3){
-    width:11rem;
+    width:17%;
 }
 header nav ul li:nth-child(4){
-    width:8rem;
+    width:12%;
 }
 header nav ul li:nth-child(5){
-    width:7rem;
+    width:11%;
 }
 header nav ul li:nth-child(6){
-    width:6rem;
+    width:10%;
 }
 header nav ul li:nth-child(7){
-    width:9rem;
+    width:11%;
 }
 
 header nav ul li a{
@@ -78,6 +78,19 @@ header nav ul li a{
     position: relative;
     top:1.3rem;
 }
+
+main{
+    margin:0;
+    padding:0;
+    width:auto;
+    height: auto;
+}
+
+main img{
+    width:auto;
+    
+}
+
 
 footer{
     background-color:#7A1501;
@@ -95,6 +108,12 @@ footer{
 
 h2{
     text-transform: uppercase;
+    margin:0;
+    padding:0;
+}
+h3{
+    margin:0;
+    padding:0;
 }
 #divider{
     width:60%;
@@ -124,7 +143,7 @@ h2{
     height:8rem;
 }
 .links p:nth-child(3){
-    width:calc(70%/3);
+    width:calc(99%/3);
     float: right;
     display:block;
     margin:0 auto;
@@ -142,8 +161,13 @@ h2{
 }
 
 .link_images span{
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
+    margin:0;
+    padding:0;
+    display: inline-block;
+    height:1.5rem;
+    width:13rem;
 }
 
 
