@@ -116,24 +116,6 @@ main div p{
     float:right;
 }
 
-#signup{
-    background-color:#F9DA0C;
-    height:5rem;
-    width:9rem;
-    position: absolute;
-    top:5.6rem;
-    font-size:1.7rem;
-    transform: translateX(50rem);
-}
-#signup a{
-    position:relative;
-    top: 1.5rem;
-    right:1rem;
-    text-decoration: none;
-    color:#7A1501;
-    display:inline-block;
-}
-
 footer{
     background-color:#7A1501;
     display: block;
@@ -143,13 +125,42 @@ footer{
     height:80rem;
 }
 
+
+
 #info{
     display: inline-block;
     height:90%;
     margin:0 auto;
     width:70%;
 }
-#info div{
+
+#signup{
+    position: relative;
+    top:-2rem;
+    font-size:1.7rem;
+    text-align: center;
+    height:4rem;
+    
+}
+#signup a{
+    background-color:#F9DA0C;
+    right:1rem;
+    text-decoration: none;
+    color:#7A1501;
+    display:inline-block;
+    width:8rem;
+    height: 100%;
+    position:relative;
+    left:7rem;
+}
+
+#signup a span{
+    position:relative;
+    top:.5rem;
+    text-transform: uppercase;
+}
+
+.info_div{
     height:40%;
     width:50%;
     display: inline-block;
@@ -157,6 +168,7 @@ footer{
     margin:0 auto;
     margin-top:3rem;
 }
+
 p{
     margin:0;
     padding:0;
