@@ -49,6 +49,7 @@ header nav ul li{
 header nav ul li:hover{
     background-color:#F9DA0C;
 }
+
 #icon{
     display:none;
 }
@@ -81,8 +82,18 @@ header nav ul li a{
     text-decoration: none;
     color:black;
     text-transform: uppercase;
+    display: inline-block;
+    height: 100%;
+    width:100%;
+}
+
+header nav ul li a span{
     position: relative;
     top:1.3rem;
+}
+
+#navbar_hidden{
+    display: none;
 }
 
 main{
@@ -203,6 +214,8 @@ header{
     height: 50%;
 }
 
+    
+    
 header nav ul{
     width:100%;
     display:block;
