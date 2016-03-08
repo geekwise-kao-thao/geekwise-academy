@@ -13,6 +13,8 @@ body{
     height: 100%;
     text-align: center;
 }
+ 
+/* start about page */
 
 header{
     margin:0;
@@ -260,7 +262,9 @@ p{
 
 @media only screen and (max-width:930px){
     
-    
+    .display_none{
+        display: none;
+    }
     
 }
 
