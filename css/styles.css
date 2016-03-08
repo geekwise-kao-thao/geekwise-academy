@@ -206,20 +206,22 @@ header{
     height: 60%;
     display: none;
 }
+    
+    label{
+        display: block;
+        height: 12%;
+    }
+    
     #bars{
         display: inline-block;
-        width:8%;
+        width:6%;
         float: right;
         border:1px solid lightgrey;
-        opacity:.6;
-    }
-    #bars{
-        float:right;
-        opacity: .3;
-        border:2px solid lightgrey;
+        opacity:.3;
+        margin:1.4rem 1.4rem 0 0;
     }
     img:hover{
-        background-color:lightgrey;
+        background-color:grey;
     }
     
     input:checked + header{
@@ -243,6 +245,8 @@ header nav ul li{
 header nav ul li:nth-child(1){
     width:100%;
     height:4rem;
+    border-top:1px solid lightgrey;
+    
 }
 header nav ul li:nth-child(2){
     width:100%;
