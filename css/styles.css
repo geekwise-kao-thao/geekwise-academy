@@ -216,11 +216,19 @@ header{
         border:1px solid lightgrey;
         opacity:.6;
     }
-    
-    label>#bars:hover{
-        opacity: .3;
+    leader{
+        display: block;
+        margin:0 auto;
+        float:right;
     }
-    
+    #bars{
+        float:right;
+        opacity: .3;
+        border:2px solid lightgrey;
+    }
+    img:hover{
+        background-color:lightgrey;
+    }
     input:checked + header{
         display: none;
     }
