@@ -57,10 +57,6 @@ header nav ul li:hover{
     background-color:#F9DA0C;
 }
 
-#icon{
-    display:none;
-}
-
 header nav ul li:nth-child(1){
     width:11%;
 }
@@ -208,6 +204,7 @@ h3{
     
 header{
     height: 60%;
+    display: none;
 }
     #bars{
         display: inline-block;
@@ -215,11 +212,6 @@ header{
         float: right;
         border:1px solid lightgrey;
         opacity:.6;
-    }
-    leader{
-        display: block;
-        margin:0 auto;
-        float:right;
     }
     #bars{
         float:right;
@@ -229,8 +221,10 @@ header{
     img:hover{
         background-color:lightgrey;
     }
+    
     input:checked + header{
-        display: none;
+        display:block;
+        
     }
     
     
