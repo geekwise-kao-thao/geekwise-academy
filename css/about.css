@@ -23,7 +23,7 @@ header{
 
 header nav{
     height: 100%;
-    width:90rem;
+    width:87rem;
     margin:0 auto;
     display:block;
 }
@@ -88,11 +88,28 @@ header nav ul li a{
     text-decoration: none;
     color:black;
     text-transform: uppercase;
+    font-family: sans-serif;
+    display: block;
+    height:100%;
+    width:100%;
+}
+header nav ul li a span{
+    display: block;
+    height:auto;
+    width:100%;
     position: relative;
     top:1.3rem;
 }
-header nav ul li a:hover{
+header nav ul li span:hover{
     color:#7A1501;
+}
+.vertical_align{
+    position: relative;
+    top:1.3rem;
+    
+}
+.active{
+    color:blue;
 }
 
 main{
@@ -239,5 +256,11 @@ p{
 }
 
 
-/* start of media query */
+/* start of media query for about page */
+
+@media only screen and (max-width:930px){
+    
+    
+    
+}
 
