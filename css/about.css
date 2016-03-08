@@ -42,7 +42,6 @@ header nav ul{
     float:left;
     height: 100%;
     width:19%;
-    
     position: relative;
     top:1rem;
 }
@@ -111,7 +110,7 @@ main img{
     top:1px;
 }
 
-main > div{
+#main_div{
     display:inline-block;
     width:90rem;
     height:15rem;
