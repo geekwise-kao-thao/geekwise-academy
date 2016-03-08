@@ -203,7 +203,7 @@ h3{
     
     
 header{
-    height: 60%;
+    height: 30rem;
     display: none;
 }
     
@@ -240,7 +240,8 @@ header nav ul{
 }
 
 header nav ul li{
-    display:inline-block; height:calc(100%/7);
+    display:inline-block; 
+    height:calc(100%/7);
 }
 
 header nav ul li:nth-child(1){
