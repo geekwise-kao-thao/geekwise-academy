@@ -43,6 +43,7 @@ header nav ul li{
     height:100%;
     margin:0;
     padding:0;
+    font-family: sans-serif
 }
 
 header nav ul li:hover{
@@ -106,10 +107,27 @@ footer{
     color:white;
     height:35rem;
 }
+
+/* web font from website */
+
+@font-face {
+    font-family: 'franchise';
+    src: url('../fonts/franchise-bold-webfont.eot');
+    src: url('../fonts/franchise-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/franchise-bold-webfont.woff') format('woff'),
+         url('../fonts/franchise-bold-webfont.ttf') format('truetype'),
+         url('../fonts/franchise-bold-webfont.svg#franchiseregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 .fluff{
     width:70%;
     display:inline-block;
     font-size:3rem;
+    font-family: 'franchise';
 }
 
 h2{
