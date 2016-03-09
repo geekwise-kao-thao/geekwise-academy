@@ -446,8 +446,6 @@ header{
     color:#F9DA0C;
 }
 
-
-
 #main_image{
     background-image: url(http://i.imgur.com/0J7qpk8.jpg);
     background-repeat: no-repeat;
@@ -459,17 +457,36 @@ header{
     padding:0;
 }
 
-#main_image p:nth-child(1){
-    display:inline-block;
-    margin:0 auto;
+#main_image > div{
+    display: inline-block;
+    height:25rem;
+    width:13%;
+    position:relative;
+    top:31rem;
+    left:2rem;
+    background-color:white;
 }
 
 #bitwise{
-    display:block;
+    display:inline-block;
 }
 .contact_info{
     display:inline-block;
     font-size: 2rem;
     width:100%;
     text-align:center;
+    font-size:1rem;
+    line-height:4rem;
 }
+
+.dif_color{
+    color:#7A1501;
+}
+
+.email{
+    font-size:.8rem;
+}
+
+
+
+
