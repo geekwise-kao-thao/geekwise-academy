@@ -122,7 +122,7 @@ main{
     height: auto;
 }
 
-main img{
+#about_image{
     width:auto;
     float:left;
     position:relative;
@@ -423,9 +423,53 @@ footer{
     
 }
  
-    
-    
-    
 
 }
+/* end media query for about page */
+/* end about page */
 
+/* start contact page */
+
+header{
+    background-color:#7A1501;
+    height:7rem;
+}
+
+.active2{
+    color:#F9DA0C;
+}
+.hover{
+    position: relative;
+    top:2.5rem;
+}
+.hover:hover{
+    color:#F9DA0C;
+}
+
+
+
+#main_image{
+    background-image: url(http://i.imgur.com/0J7qpk8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height:80rem;
+    width:100%;
+    margin:0 auto;
+    padding:0;
+}
+
+#main_image p:nth-child(1){
+    display:inline-block;
+    margin:0 auto;
+}
+
+#bitwise{
+    display:block;
+}
+.contact_info{
+    display:inline-block;
+    font-size: 2rem;
+    width:100%;
+    text-align:center;
+}
