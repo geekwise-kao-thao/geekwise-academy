@@ -270,6 +270,15 @@ p{
 
 @media only screen and (max-width:930px){
     
+    header{
+        height:25%;
+    }
+
+    header nav{
+        height: 100%;
+        width:100%;
+} 
+    
     .nav_div{
         display: none;
     }
@@ -286,7 +295,7 @@ p{
     }
     #bars{
         display: inline-block;
-        width:10%;
+        width:5rem;
         float: right;
         border:1px solid lightgrey;
         opacity:.5;
@@ -300,10 +309,6 @@ p{
     }
     input:checked + .nav_div{
         display: block;
-    }
-    
-    header{
-        height:25%;
     }
     
     #icon_image{
@@ -339,7 +344,7 @@ footer{
     
 }
 #signup a{
-    width:20%;
+    width:10rem;
     height: 100%;
 }
 
