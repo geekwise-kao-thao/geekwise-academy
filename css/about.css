@@ -284,16 +284,13 @@ p{
     width:100%;
     font-weight: 600;
     position:relative;
-    top:7rem;
+    top:0rem;
 }
 
 .nav_div li{
     font-size: 1.5rem;
 }
 
-    .width{
-        width:100%;
-    }
     
 .nav_div li:nth-child(1){
     width:100%;
@@ -318,7 +315,7 @@ p{
 }
 .nav_div li:nth-child(6){
     width:100%;
-    height:calc(100%/7)
+    height:calc(100%/7);
 }
 
 header nav ul li a{
@@ -338,7 +335,7 @@ header nav ul li a span{
     label{
         display: block;
         margin:0 auto;
-        height:6rem;
+        height:15rem;
         width:50%;
         float: right;
     }
