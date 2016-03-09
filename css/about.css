@@ -280,64 +280,37 @@ p{
     main div p:last-child{
         display:block;
     }
-    
+    label{
+        display: block;
+        margin:0 auto;
+        height:6rem;
+        width:50%;
+        float: right;
+    }
     #bars{
         display: inline-block;
-        width:6%;
+        width:10%;
         float: right;
         border:1px solid lightgrey;
-        opacity:.3;
-        margin:1.4rem 1.4rem 0 0;
+        opacity:.5;
+        margin:0 1rem 0 0;
         border-radius:5px;
+        transform: translateY(7rem);
     }
     
-main{
-    display: block;
-    margin:0 auto;
-    padding:0;
-    width:100%;
-    height: auto;
-}
-
-main img{
-    width:auto;
-    float:left;
-    position:relative;
-    top:1px;
-}
-
-#main_div{
-    display:inline-block;
-    width:90rem;
-    height:15rem;
+    header{
+        height:15rem;
+    }
     
-}
-
-main div div:nth-child(2){
-    font-size: 2.4rem;
-    width:40rem;
-    height:8rem;
-    margin:0 auto;
-    display:inline-block;
-    float:right;
-    position:relative;
-    top:7rem;
-}
-
-main div p{
-    margin:0;
-    text-align: right;
-    text-transform: uppercase;
-    font-weight: 700;
-    display: inline-block;
-    float:right;
-    width:100%;
-}
-
-main div p:last-child{
-    display:none;
+    #icon_image{
+        margin-left:10rem;
+    }
+    
+    main{
+        display: none;
 }
 
     
+
 }
 
