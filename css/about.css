@@ -486,7 +486,23 @@ footer{
 .email{
     font-size:.8rem;
 }
+.signup_link{
+    font-family: sans-serif;
+    font-size:1.4rem;
+    float:right;
+    text-decoration: none;
+    color:#7A1501;
+    width:8rem;
+    height:5rem;
+    background-color:#F9DA0C;
+    position:relative;
+    bottom:7rem;
+    right:16rem;
+    text-transform: uppercase;
+}
 
-
-
+.signup_link span{
+    position:relative;
+    top:1.5rem;
+}
 
