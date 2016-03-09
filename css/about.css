@@ -430,7 +430,7 @@ footer{
 
 /* start contact page */
 
-header{
+.header_color{
     background-color:#7A1501;
     height:7rem;
 }
