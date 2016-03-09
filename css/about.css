@@ -274,6 +274,10 @@ p{
 
 @media only screen and (max-width:930px){
     
+    .nav_div{
+        display: none;
+    }
+    
     .display_none{
         display: none;
     }
@@ -298,12 +302,21 @@ p{
         transform: translateY(7rem);
     }
     
+    #bars:hover{
+        background-color:grey;
+    }
+    input:checked + .nav_div{
+        display: block;
+    }
+    
     header{
         height:15rem;
     }
     
     #icon_image{
-        margin-left:10rem;
+        position: relative;
+        top:2rem;
+        left:1rem;
     }
     
     main{
