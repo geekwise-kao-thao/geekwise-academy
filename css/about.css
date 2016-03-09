@@ -157,10 +157,6 @@ main div p{
     width:100%;
 }
 
-main div p:last-child{
-    display:none;
-}
-
 #dropdown{
     display: none;
 }
@@ -253,7 +249,7 @@ p{
 #last_line a{
     text-decoration: none;
     color:#7A1501;
-    font-size:2rem;
+    font-size:1.5rem;
     text-transform: uppercase;
     display: inline-block;
     height:100%;
@@ -281,9 +277,6 @@ p{
     .display_none{
         display: none;
     }
-    main div p:last-child{
-        display:block;
-    }
     label{
         display: block;
         margin:0 auto;
@@ -310,7 +303,7 @@ p{
     }
     
     header{
-        height:15rem;
+        height:25%;
     }
     
     #icon_image{
@@ -323,6 +316,64 @@ p{
         display: none;
 }
 
+    /* footer section. what, how, why, and details content */
+    
+    
+footer{
+    height:auto;
+}
+
+
+
+#info{
+    height:90%;
+    width:90%;
+}
+
+#signup{
+    position: relative;
+    top:-2rem;
+    font-size:1.7rem;
+    text-align: center;
+    height:4rem;
+    
+}
+#signup a{
+    width:20%;
+    height: 100%;
+}
+
+#signup a span{
+    position:relative;
+    top:1rem;
+}
+
+.info_div{
+    height:auto;
+    width:100%;
+    margin-top:2rem;
+}
+    
+#info div p{
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+    
+    /* bottom of footer, last line */
+   
+#last_line{
+    width:100%;
+    height:7rem;
+}
+
+#last_line a{
+    height:100%;
+    width:100%;
+    
+}
+ 
+    
+    
     
 
 }
