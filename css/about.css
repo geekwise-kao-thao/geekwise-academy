@@ -122,7 +122,7 @@ main{
     height: auto;
 }
 
-#about_image{
+.about_image{
     width:auto;
     float:left;
     position:relative;
@@ -183,7 +183,7 @@ footer{
     width:90rem;
 }
 
-#signup{
+.signup{
     position: relative;
     top:-2rem;
     font-size:1.7rem;
@@ -191,7 +191,7 @@ footer{
     height:4rem;
     
 }
-#signup a{
+.signup a{
     background-color:#F9DA0C;
     right:1rem;
     text-decoration: none;
@@ -203,7 +203,7 @@ footer{
     left:5rem;
 }
 
-#signup a span{
+.signup a span{
     position:relative;
     top:.5rem;
     text-transform: uppercase;
@@ -374,27 +374,24 @@ footer{
     height:auto;
 }
 
-
-
 #info{
     height:90%;
     width:90%;
 }
 
-#signup{
+.signup{
     position: relative;
     top:-2rem;
     font-size:1.7rem;
     text-align: center;
-    height:4rem;
-    
+    height:4rem;    
 }
-#signup a{
+.signup a{
     width:10rem;
     height: 100%;
 }
 
-#signup a span{
+.signup a span{
     position:relative;
     top:1rem;
 }
@@ -427,6 +424,27 @@ footer{
 }
 /* end media query for about page */
 /* end about page */
+
+
+/* begin team page */
+
+.team_image{
+    position:relative;
+    top:-10rem;
+    transform: rotate(180deg);
+    float:right;
+    left:20rem;
+    width:32rem;
+    z-index: -1;
+}
+
+.team_signup{
+    position:relative;
+    top:-10rem
+}
+
+/* end team page */
+
 
 /* start contact page */
 
@@ -506,3 +524,4 @@ footer{
     top:1.5rem;
 }
 
+/*end of contact page*/
