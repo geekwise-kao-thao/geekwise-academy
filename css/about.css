@@ -428,6 +428,8 @@ footer{
 
 /* begin team page */
 
+
+
 .team_nav_div{
     position:relative;
     right:10rem
@@ -438,10 +440,10 @@ footer{
 }
 
 .team_image{
-    position:relative;
-    top:-10rem;
+    position:absolute;
+    top:0rem;
+    right:-1rem;
     float:right;
-    left:27rem;
     width:37rem;
     z-index: -1;
 }
