@@ -466,6 +466,10 @@ footer{
     background-color: #F9DA0C;
 }
 
+.team_signup{
+    display: none;
+}
+
 header nav ul li a{
     text-decoration: none;
     color:black;
@@ -581,6 +585,12 @@ header nav ul li a{
     }
     .team_nav_div li:nth-child(7){
         display:none;
+    }
+    .team_signup{
+        display:block;
+        position:absolute;
+        top:0rem;
+        left:35rem;
     }
     
     .main{
