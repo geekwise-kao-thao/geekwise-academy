@@ -176,7 +176,7 @@ footer{
 
 
 
-#info{
+.info{
     display: inline-block;
     height:90%;
     margin:0 auto;
@@ -223,7 +223,7 @@ p{
     padding:0;
     text-align: left;
 }
-#info div p{
+.info div p{
     font-size: 1.8rem;
     width:90%;
     display: inline-block;
@@ -374,7 +374,7 @@ footer{
     height:auto;
 }
 
-#info{
+.info{
     height:90%;
     width:90%;
 }
@@ -402,7 +402,7 @@ footer{
     margin-top:2rem;
 }
     
-#info div p{
+.info div p{
     font-size: 1.7rem;
     line-height: 2rem;
 }
@@ -441,6 +441,13 @@ footer{
 .team_signup{
     position:relative;
     top:-10rem
+}
+
+.team_text{
+    width:100%;
+}
+.team_text p{
+    text-align: center;
 }
 
 /* end team page */
