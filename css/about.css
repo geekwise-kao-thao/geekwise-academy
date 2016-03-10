@@ -586,10 +586,15 @@ header nav ul li a{
     .team_nav_div li:nth-child(7){
         display:none;
     }
+    .team_body > div{
+        margin:0;
+        padding:0;
+        
+    }
     .team_signup{
         display:block;
         position:absolute;
-        top:-15rem;
+        top:6rem;
         left:8rem;
     }
     
