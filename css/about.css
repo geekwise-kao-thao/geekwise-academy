@@ -428,6 +428,11 @@ footer{
 
 /* begin team page */
 
+.team_nav_div{
+    position:relative;
+    right:10rem
+}
+
 .team_footer{
     height:40rem;
 }
@@ -435,18 +440,19 @@ footer{
 .team_image{
     position:relative;
     top:-10rem;
-    transform: rotate(180deg);
     float:right;
-    left:20rem;
-    width:32rem;
+    left:27rem;
+    width:37rem;
     z-index: -1;
 }
-
+.team_signup{
+    
+}
 .team_signup{
     position:relative;
-    top:-10rem
+    top:-10rem;
+    transform: translateX(-11rem);
 }
-
 .team_text{
     width:100%;
 }
