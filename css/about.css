@@ -589,8 +589,8 @@ header nav ul li a{
     .team_signup{
         display:block;
         position:absolute;
-        top:0rem;
-        left:35rem;
+        top:-15rem;
+        left:8rem;
     }
     
     .main{
