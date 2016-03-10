@@ -428,6 +428,12 @@ footer{
 
 /* begin team page */
 
+.contact_header{
+    background-color:#7A1501;
+}
+#nav_background{
+    background-color:#7A1501;
+}
 
 .team_nav_div li{
     font-size: 1.4rem;
@@ -465,14 +471,20 @@ footer{
     width:12%;
     background-color: #F9DA0C;
 }
-
+.added_signup a span{
+    
+    color:#7A1501;
+}
+.contact_active{
+    color:#F9DA0C;
+}
 .team_signup{
     display: none;
 }
 
 header nav ul li a{
     text-decoration: none;
-    color:black;
+    color:white;
     text-transform: uppercase;
     font-family: sans-serif;
     display: block;
@@ -512,6 +524,7 @@ header nav ul li a{
     width:37rem;
     z-index: -1;
 }
+
 .team_signup{
     position:absolute;
     top:-10rem;
@@ -556,8 +569,10 @@ header nav ul li a{
 
 @media only screen and (max-width:930px){
     
- 
-    
+    #margin_top{
+        margin:2rem;
+        margin-top:-8rem;
+    }
     .team_nav_div{
         display: block;
         margin:0 auto;
@@ -672,6 +687,10 @@ header nav ul li a{
     height:7rem;
 }
 
+.contact_nav{
+    width:60rem;
+}
+
 .active2{
     color:#F9DA0C;
 }
@@ -697,7 +716,7 @@ header nav ul li a{
 #main_image > div{
     display: inline-block;
     height:25rem;
-    width:13%;
+    width:18rem;
     position:relative;
     top:31rem;
     left:2rem;
