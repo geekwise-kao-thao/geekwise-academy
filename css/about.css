@@ -121,7 +121,6 @@ main{
     width:100%;
     height: auto;
 }
-
 .about_image{
     width:auto;
     float:left;
@@ -318,6 +317,7 @@ p{
     height:calc(100%/7);
 }
 
+
 header nav ul li a{
 }
 header nav ul li a span{
@@ -429,10 +429,65 @@ footer{
 /* begin team page */
 
 
+.nav_div li{
+    font-size: 1.4rem;
+    display:inline-block;
+    height:40%;
+    margin:0;
+    padding:0;    
+}
+
+#icon{
+    display:inline-block;
+    float: left;
+}
+.team_nav_div li:nth-child(1){
+    width:9%;
+}
+.team_nav_div li:nth-child(2){
+    width:11%;
+}
+.team_nav_div li:nth-child(3){
+    width:16%;
+}
+.team_nav_div li:nth-child(4){
+    width:10%;
+}
+.team_nav_div li:nth-child(5){
+    width:8%;
+}
+.team_nav_div li:nth-child(6){
+    width:12%;
+}
+.added_signup{
+    width:10%;
+    background-color: #F9DA0C;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    display: block;
+    height:100%;
+    width:100%;
+}
 
 .team_nav_div{
     position:relative;
-    right:10rem
+    right:10rem;
+    width:70rem;
+}
+
+
+#the_team_div{
+    float:none;
+}
+
+#the_team{
+    width:auto;
+    float:none;
 }
 
 .team_footer{
@@ -448,10 +503,7 @@ footer{
     z-index: -1;
 }
 .team_signup{
-    
-}
-.team_signup{
-    position:relative;
+    position:absolute;
     top:-10rem;
     transform: translateX(-11rem);
 }
