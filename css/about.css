@@ -490,6 +490,7 @@ header nav ul li a{
 
 #the_team_div{
     float:none;
+    width:100%;
 }
 
 #the_team{
@@ -549,9 +550,60 @@ header nav ul li a{
 }
 
 
+/* start media query for team page */
 
+@media only screen and (max-width:930px){
+    
+    
+.team_nav_div li:nth-child(1){
+    display:none;
+}
+.team_nav_div li:nth-child(2){
+    display:none;
+}
+.team_nav_div li:nth-child(3){
+    display:none;
+}
+.team_nav_div li:nth-child(4){
+    display:none;
+}
+.team_nav_div li:nth-child(5){
+    display:none;
+}
+.team_nav_div li:nth-child(6){
+    display:none;
+}
+    
+    .team_nav_div{
+        position:absolute;
+        top:0rem;
+        width:10rem;
+    }  
+    
+    .team_nav_div li{
+        width:80%;
+    }
+    
+    .main{
+        display:block;
+        width:100%;
+    }
+    #main_div{
+        display:block;
+        margin:0 auto;
+        width:100%;
+    }
+    .team_image{
+        display:none;
+    }
+    #the_team_div{
+        width:100%;
+    }
+    
+    
+}
 
-
+/* end media query for team page */
 
 /* end team page */
 
