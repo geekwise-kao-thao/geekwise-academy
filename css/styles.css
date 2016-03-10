@@ -6,6 +6,11 @@ html, body{
     height:100%;
 }
 
+@font-face {
+  font-family: 'Franchise Bold';
+  src: url('http://www.fontsaddict.com/fontface/franchise-bold.ttf');
+}
+
 body{
     margin:0;
     padding:0;
@@ -130,13 +135,12 @@ footer{
     width:70%;
     display:inline-block;
     font-size:3rem;
-    font-family: 'franchise';
 }
 
 h2{
     text-transform: uppercase;
     margin:0;
-    padding:0;
+    padding:0;font-family: 'Franchise Bold';
 }
 h3{
     margin:0;
