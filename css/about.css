@@ -478,8 +478,6 @@ header nav ul li a{
 
 .team_nav_div{
     background-color:white;
-    position:relative;
-    right:1rem;
     width:65rem;
     height:6rem;
     float: right;
@@ -554,34 +552,35 @@ header nav ul li a{
 
 @media only screen and (max-width:930px){
     
-    
-.team_nav_div li:nth-child(1){
-    display:none;
-}
-.team_nav_div li:nth-child(2){
-    display:none;
-}
-.team_nav_div li:nth-child(3){
-    display:none;
-}
-.team_nav_div li:nth-child(4){
-    display:none;
-}
-.team_nav_div li:nth-child(5){
-    display:none;
-}
-.team_nav_div li:nth-child(6){
-    display:none;
-}
+ 
     
     .team_nav_div{
-        position:absolute;
-        top:0rem;
-        width:10rem;
+        display: block;
+        margin:0 auto;
+        height:40rem;
+        width:100%;
     }  
     
-    .team_nav_div li{
-        width:80%;
+    .team_nav_div li:nth-child(1){
+        width:100%;
+    }
+    .team_nav_div li:nth-child(2){
+        width:100%;
+    }
+    .team_nav_div li:nth-child(3){
+        width:100%;
+    }
+    .team_nav_div li:nth-child(4){
+        width:100%;
+    }
+    .team_nav_div li:nth-child(5){
+        width:100%;
+    }
+    .team_nav_div li:nth-child(6){
+        width:100%;
+    }
+    .team_nav_div li:nth-child(7){
+        display:none;
     }
     
     .main{
@@ -598,6 +597,49 @@ header nav ul li a{
     }
     #the_team_div{
         width:100%;
+    }
+    .team_footer{
+        height:auto;
+    }
+#pictures_div p{
+    display:block;
+    margin:0 auto;
+    width:100%;
+    text-align: center;
+}
+
+.pictures img{
+    width: auto;
+    display:inline-block;
+    
+}
+
+.span_font{
+    font-size: 1.1rem;
+    display: block;
+    width:100%;
+    text-align: center;
+    text-transform: uppercase;
+    color:black;
+    font-weight: 600;
+}
+
+
+    label{
+        display: block;
+        margin:0 auto;
+        height:15rem;
+        width:50%;
+        float: right;
+    }
+    .team_nav_div{
+        display:none;
+    }
+    #bars:hover{
+        background-color:grey;
+    }
+    input:checked + div{
+        display: block;
     }
     
     
