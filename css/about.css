@@ -428,6 +428,10 @@ footer{
 
 /* begin team page */
 
+.team_footer{
+    height:40rem;
+}
+
 .team_image{
     position:relative;
     top:-10rem;
@@ -449,6 +453,38 @@ footer{
 .team_text p{
     text-align: center;
 }
+
+#pictures_div{
+    display:inline-block;
+    margin:0 auto;
+    width:100%;
+}
+
+#pictures_div p{
+    display:inline-block;
+    width:25%;
+    float:left;
+    
+}
+
+.pictures img{
+    width: auto;
+}
+
+.span_font{
+    font-size: 1.1rem;
+    display: block;
+    width:100%;
+    text-align: center;
+    text-transform: uppercase;
+    color:black;
+    font-weight: 600;
+}
+
+
+
+
+
 
 /* end team page */
 
