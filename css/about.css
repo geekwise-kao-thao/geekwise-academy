@@ -317,9 +317,6 @@ p{
     height:calc(100%/7);
 }
 
-
-header nav ul li a{
-}
 header nav ul li a span{
     position: relative;
     top:2rem;
@@ -426,6 +423,31 @@ footer{
 /* end about page */
 
 
+
+/* begin cohort page */
+
+.cohort_main{
+    height:10rem;
+}
+
+.cohort_position{
+    position: relative;
+    top:-3rem;
+}
+
+.content{
+    text-transform:none; 
+    font-size:1.7rem;
+    text-align: left;
+    line-height:2.5rem;
+    width:98%;
+    display:inline-block;
+    margin-bottom:1.5rem;
+}
+
+/* end cohort page */
+
+
 /* begin team page */
 
 
@@ -473,9 +495,9 @@ footer{
     display: none;
 }
 
-header nav ul li a{
+#contact_header nav ul li a{
     text-decoration: none;
-    color:white;
+    color:black;
     text-transform: uppercase;
     font-family: sans-serif;
     display: block;
