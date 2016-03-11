@@ -444,6 +444,14 @@ footer{
     display:inline-block;
     margin-bottom:1.5rem;
 }
+.cohort_div{
+    width:100rem;
+    height:auto;
+}
+.cohort_pictures{
+    background-color:#ffffff;
+    color:black;
+}
 
 /* end cohort page */
 
