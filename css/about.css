@@ -709,6 +709,7 @@ header nav ul li a{
     background-size: cover;
     display: block;
     width:100%;
+    height:100%;
     margin:0 auto;
     padding:0;
 }
@@ -769,6 +770,7 @@ header nav ul li a{
 /*media query contact page*/
 @media only screen and(max-width:930px){
       
+    
     
 }
 
