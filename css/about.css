@@ -695,11 +695,11 @@ header nav ul li a{
 .active2{
     color:#F9DA0C;
 }
-.hover{
+.contact_hover{
     position: relative;
     top:2.5rem;
 }
-.hover:hover{
+.contact_hover:hover{
     color:#F9DA0C;
 }
 
@@ -767,12 +767,6 @@ header nav ul li a{
     display:block;
 }
 
-/*media query contact page*/
-@media only screen and(max-width:930px){
-      
-    
-    
-}
 
 /*end of contact page*/
 
