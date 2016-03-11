@@ -170,7 +170,7 @@ main div p{
     margin:0 auto;
     text-align: center;
     color:white;
-    height:80rem;
+    height:auto;
 }
 
 
@@ -451,6 +451,11 @@ footer{
     width:100rem;
     height:auto;
 }
+#cohort_title{
+    font-size:2rem;
+    color:white;
+    padding:1rem 0 1rem 0;
+}
 .cohort_pictures_div{
     background-color:#ffffff;
     color:black;
@@ -462,7 +467,9 @@ footer{
 .cohort_pic > img{
     height:15rem;
 }
-
+.cohort_names{
+    font-size:2rem;
+}
 
 
 /* end cohort page */
@@ -582,6 +589,7 @@ footer{
     display:inline-block;
     width:25%;
     float:left;
+    text-align: center;
     
 }
 
