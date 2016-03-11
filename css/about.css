@@ -363,7 +363,7 @@ header nav ul li a span{
         left:1rem;
     }
     
-    main{
+    #about_main{
         display: none;
 }
 
@@ -762,12 +762,13 @@ header nav ul li a{
     top:1.5rem;
 }
 
+#info_hidden{
+    display:block;
+}
+
 /*media query contact page*/
 @media only screen and(max-width:930px){
-    
-   #info_hidden{
-    display:block;
-} 
+      
     
 }
 
