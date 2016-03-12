@@ -451,6 +451,59 @@ footer{
     width:100rem;
     height:auto;
 }
+
+.cohort_label{
+    display:inline-block;
+    width:100rem;
+    height:5rem;
+    font-size:2rem;
+    text-align: left;
+    background-color:#F9DA0C
+}
+.cohort_label span{
+    position:relative;
+    top:1rem;
+    left:1rem;
+}
+#this_year_cohorts{
+    display: none;
+}
+#cohort_input{
+    display:none;
+}
+
+#cohort_input:checked + #this_year_cohorts{
+    display:block;
+}
+ /* second label and input*/
+
+
+
+.cohort_label2{
+    display:inline-block;
+    width:100rem;
+    height:5rem;
+    font-size:2rem;
+    text-align: left;
+    background-color:#F9DA0C;
+    margin:1rem 0 2rem 0;
+}
+.cohort_label2 span{
+    position:relative;
+    top:1rem;
+    left:1rem;
+}
+.this_year_cohorts2{
+    display: none;
+}
+#cohort_input2{
+    display:none;
+}
+
+#cohort_input2:checked+.this_year_cohorts2{
+    display:block;
+}
+
 #cohort_title{
     font-size:2rem;
     color:white;
@@ -470,6 +523,12 @@ footer{
 .cohort_names{
     font-size:2rem;
 }
+.cohort_text_left{
+    display:inline-block;
+    text-align:left;
+    width:90%;
+}
+
 
 
 /* end cohort page */
