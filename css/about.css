@@ -451,6 +451,7 @@ footer{
 #content_ol{
     margin:0;
     padding:1rem 0 1rem 0;
+    width:90%;
 }
 .cohort_footer{
     display: inline-block;
@@ -524,7 +525,7 @@ footer{
 .cohort_pictures_div{
     background-color:#ffffff;
     color:black;
-    height:70rem;
+    height:75rem;
 }
 .cohort_pic{
     text-align: center;
@@ -603,6 +604,55 @@ footer{
 
     
 }
+
+@media only screen and (max-width:767px){
+   
+ /* second label and input*/
+
+    .cohort_div{
+        width:auto;
+        height:auto;
+    }
+    .cohort_pictures_div{
+        height:auto;
+    }
+    .cohort_pictures_div > p{
+        width:100%;
+        height:auto;
+    }
+    .cohort_pictures_div > p > img{
+        width:60%;
+        height:auto;
+        
+    }
+    .cohort_pic span{
+        width:60%;
+        line-height: 2.1rem;
+    }
+    .cohort_pic:nth-child(7){
+        float:left;
+        position:relative;
+        top:-0rem;
+    }
+    .cohort_label{
+        height:6rem;
+    }
+    .cohort_label2{
+        height:6rem;
+    }
+    .cohort_label span{
+    position:relative;
+    top:2rem;
+    }
+    .cohort_label2 span{
+    position:relative;
+    top:2rem;
+    }
+}
+
+
+
+
 
 /* end cohort page */
 
