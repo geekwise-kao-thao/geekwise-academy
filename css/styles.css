@@ -7,8 +7,8 @@ html, body{
 }
 
 @font-face {
-  font-family: 'Franchise Bold';
-  src: url('http://www.fontsaddict.com/fontface/franchise-bold.ttf');
+  font-family: 'franchise';
+  src: url('Franchise-Bold.ttf');
 }
 
 body{
@@ -128,7 +128,9 @@ footer{
 }
 
 /* web font from website */
-
+h3{
+    
+}
 
 
 .fluff{
