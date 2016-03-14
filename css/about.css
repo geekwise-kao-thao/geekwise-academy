@@ -422,6 +422,81 @@ footer{
 /* end media query for about page */
 /* end about page */
 
+/* begin courses page */
+
+
+#courses_main{
+    height:auto;
+    font-size:1.5rem;
+    text-align: left;
+    display:block;
+    margin:0 auto;
+    width:90%;
+    text-align: center;
+}
+#courses_main div p{
+    text-align: left;
+    text-transform: none;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+#courses_table{
+    background-color:white;
+    height: auto;
+    width:100%;
+    display: inline-block;
+    margin:0 auto;
+    padding:0;
+    font-size:1.4rem;
+    border-top:1px solid grey;
+}
+#courses_table p{
+    line-height:1rem;
+    text-align: center;
+}
+#courses_table p span{
+    display: inline-block;
+}
+.column1{
+    height: 12rem;
+    width:50%;
+    display: inline-block;
+    padding-top:1rem;
+    
+}
+
+.column2{
+    height:12rem;
+    width:9%;
+    display: inline-block;
+}
+.column3{
+    height:12rem;
+    width:9%;
+    display: inline-block;
+}
+.column4{
+    height:12rem;
+    width:9%;
+    display: inline-block;
+}
+.column5{
+    height:12rem;
+    width:10%;
+    display: inline-block;
+}
+.column6{
+    height:12rem;
+    width:10%;
+    display: inline-block;
+}
+
+
+
+
+/* end courses page*/
+
 /* begin workshops page */
 
 #workshops_header{
@@ -537,13 +612,7 @@ footer{
 /* end workshops page */
 
 
-
-
-
-
 /* begin cohort page */
-
-
 
 .cohort_main{
     height:10rem;
