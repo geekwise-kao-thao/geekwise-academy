@@ -422,6 +422,45 @@ footer{
 /* end media query for about page */
 /* end about page */
 
+/* begin workshops page */
+
+#workshops_header{
+    height:15rem;
+}
+
+#workshops_active{
+    color:#F9DA0C;
+}
+#workshops_white_color{
+    color:white;
+}
+
+#workshops_fluff{
+    font-size:1.5rem;
+    display:block;
+    margin:0 auto;
+    background-color:#7A1501;
+    height:auto;
+    width:100%;
+    color:white;
+    position: relative;
+    font-weight: 600;
+}
+#workshops_fluff p{
+    width:70%;
+    display: inline-block;
+    padding-bottom: 2rem;
+}
+
+
+
+
+
+/* end workshops page */
+
+
+
+
 
 
 /* begin cohort page */
@@ -753,11 +792,12 @@ footer{
 }
 .team_text p{
     text-align: center;
+    color:white;
 }
 
 .team_footer{
     background-color:#7A1501;
-    height:auto;
+    height:40rem;
 }
 
 #pictures_div{
