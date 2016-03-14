@@ -446,9 +446,16 @@ footer{
     line-height:2.5rem;
     width:98%;
     display:inline-block;
-    margin-bottom:1.5rem;
+    margin-bottom:1rem;
 }
-
+#content_ol{
+    margin:0;
+    padding:1rem 0 1rem 0;
+}
+.cohort_footer{
+    display: inline-block;
+    width:100%;
+}
 .cohort_div{
     width:100rem;
     height:auto;
@@ -498,14 +505,14 @@ footer{
     top:1rem;
     left:1rem;
 }
-.this_year_cohorts2{
+#this_year_cohorts2{
     display: none;
 }
 #cohort_input2{
     display:none;
 }
 
-#cohort_input2:checked + .this_year_cohorts2{
+#cohort_input2:checked + #this_year_cohorts2{
     display:block;
 }
 
@@ -572,14 +579,17 @@ footer{
     margin-top:5px;   
     width:calc(100%/3);
 }
+    
     .cohort_pic:nth-child(7){
         float:none;
+        position:relative;
+        top:-1.8rem;
     }
     .cohort_pic:nth-child(8){
         float:none;
     }
     .cohort_pic span{
-        width:24rem;
+        width:23rem;
         display:inline-block;
     }
 .cohort_names{
@@ -677,7 +687,7 @@ footer{
 .team_image{
     position:absolute;
     top:0rem;
-    right:-1rem;
+    right:0rem;
     float:right;
     width:37rem;
     z-index: -1;
