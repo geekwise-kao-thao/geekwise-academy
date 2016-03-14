@@ -449,7 +449,6 @@ footer{
 #workshops_fluff p{
     width:90%;
     display: inline-block;
-    padding-bottom: 2rem;
     margin:0;
     padding:0;
     float: none;
@@ -493,24 +492,29 @@ footer{
 
 #half_owl{
     float:right;
-    position:absolute;
-    top:67rem;
-    left:87rem;
     z-index: -1;
+    position:relative;
+    top:-50rem;
 }
 #workshops_footer{
     font-size: 1.4rem;
     display: inline-block;
     height: 5rem;
-    width:30rem;
+    width:100%;
     margin:0 auto;
-    background-color: #F9DA0C;
 }
 #workshops_footer p{
     display: inline-block;
+    height: 5rem;
+    width:30rem;
+    margin:0 auto;
+    background-color: #F9DA0C;
+    text-align: center;
+}
+#workshops_footer p span{
+    display: inline-block;
     position:relative;
     top:2rem;
-    
 }
 
 @media only screen and (max-width:767px){
@@ -521,6 +525,11 @@ footer{
 #workshops_fluff p{
     width:70%;
 }
+    /*
+    #workshops_footer{
+        font-size:1.1rem;
+        width:23rem;
+    }*/
     
 }
 
