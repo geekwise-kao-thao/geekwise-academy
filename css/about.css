@@ -431,7 +431,7 @@ footer{
     text-align: left;
     display:block;
     margin:0 auto;
-    width:70%;
+    width:90rem;
     text-align: center;
 }
 #courses_main div p{
@@ -441,7 +441,15 @@ footer{
     margin-bottom: 1rem;
 }
 
-#courses_table{
+#courses_main > div > p{
+    padding:2rem 0 2rem 0;
+}
+#white_background{
+    height:auto;
+    width:100%;
+    background-color:white;
+}
+.courses_table{
     background-color:white;
     height: auto;
     width:100%;
@@ -449,17 +457,16 @@ footer{
     margin:0 auto;
     padding:0;
     font-size:1.4rem;
-    border-top:1px solid grey;
 }
-#courses_table p{
+.courses_table p{
     line-height:1rem;
     text-align: center;
 }
-#courses_table p span{
+.courses_table p span{
     display: inline-block;
 }
 .column1{
-    height: 12rem;
+    height: auto;
     width:50%;
     display: inline-block;
     padding-top:1rem;
@@ -467,35 +474,52 @@ footer{
 }
 
 .column2{
-    height:12rem;
+    height:auto;
     width:9%;
     display: inline-block;
 }
 .column3{
-    height:12rem;
+    height:auto;
     width:9%;
     display: inline-block;
 }
 .column4{
-    height:12rem;
+    height:auto;
     width:9%;
     display: inline-block;
 }
 .column5{
-    height:12rem;
+    height:auto;
     width:10%;
     display: inline-block;
 }
 .column6{
-    height:12rem;
+    height:auto;
     width:10%;
     display: inline-block;
 }
 .courses_underline{
     text-decoration: underline;
 }
-
-
+.courses_bold{
+    font-weight: 800;
+}
+.courses_border_top{
+    border-top:1px solid grey;
+}
+.courses_column_Monday{
+    height:10rem;
+    padding-top: 2rem
+}
+.courses_padding_bottom1{
+    padding-bottom: 3rem;
+}
+.courses_padding_bottom2{
+    padding-bottom: 2rem;
+}
+.courses_padding_bottom3{
+    padding-bottom: 8rem;
+}
 
 /* end courses page*/
 
@@ -587,8 +611,6 @@ footer{
     margin:0 auto;
     background-color: #F9DA0C;
     text-align: center;
-    position:relative;
-    top:1rem;
 }
 #workshops_footer p span{
     display: inline-block;
