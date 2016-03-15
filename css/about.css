@@ -617,15 +617,19 @@ footer{
         left:0rem;
         margin:0 auto;
     }
-    .courses_enroll a{
-        width:100%;
-        display: inline-block;
-        margin:0 auto;
-    }
     .courses_enroll a span{
         font-weight: 600;
-        display: inline-block;
-        float: right;
+    }
+    .enroll_anchor{
+        display:block;
+        margin:0 auto;
+        text-align: center;
+        width:100%;
+    }
+    .enroll_anchor span{
+        display:inline-block;
+        height:auto;
+        width:100%;
     }
     
 }
