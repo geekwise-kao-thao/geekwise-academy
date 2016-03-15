@@ -6,11 +6,6 @@ html, body{
     height:100%;
 }
 
-@font-face {
-  font-family: 'franchise';
-  src: url('Franchise-Bold.ttf');
-}
-
 body{
     margin:0;
     padding:0;
@@ -26,12 +21,7 @@ header{
     height: 5rem;
 }
 
-header nav{
-    height: 100%;
-    width:100%;
-    margin:0 auto;
-    display:block;
-}
+
 
 #bars{
     display: none;
@@ -40,65 +30,6 @@ input{
     display: none;
 }
 
-header nav ul{
-    list-style: none;
-    padding:0;
-    display: inline-block; 
-    margin:0 auto;
-    width:50rem;
-    height:100%;
-}
-
-header nav ul li{
-    font-size: 1.2rem;
-    display:inline-block;
-    height:100%;
-    margin:0;
-    padding:0;
-    font-family: sans-serif
-}
-
-header nav ul li:hover{
-    background-color:#F9DA0C;
-}
-
-header nav ul li:nth-child(1){
-    width:12%;
-}
-header nav ul li:nth-child(2){
-    width:14%;
-}
-header nav ul li:nth-child(3){
-    width:18%;
-}
-header nav ul li:nth-child(4){
-    width:13%;
-}
-header nav ul li:nth-child(5){
-    width:11%;
-    background-color:#F9DA0C;
-    font-size:1.1rem;
-}
-header nav ul li:nth-child(6){
-    width:10%;
-}
-header nav ul li:nth-child(7){
-    width:14%;
-}
-
-header nav ul li a{
-    text-decoration: none;
-    color:black;
-    text-transform: uppercase;
-    display: inline-block;
-    height: 100%;
-    width:100%;
-}
-
-header nav ul li a span{
-    position: relative;
-    top:1.3rem;
-}
 
 #navbar_hidden{
     display: none;
