@@ -448,6 +448,7 @@ footer{
     height:auto;
     width:100%;
     background-color:white;
+    margin-bottom: 2rem;
 }
 .courses_table{
     background-color:white;
@@ -498,6 +499,27 @@ footer{
     width:10%;
     display: inline-block;
 }
+.courses_enroll{
+    display: inline-block;
+    height:6rem;
+    margin:0 auto;
+    position:relative;
+    top:-3rem;
+    right:1rem;    
+    background-color:#F9DA0C;
+}
+.courses_enroll a{
+    text-decoration: none;
+    color:black;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+.courses_enroll a span{
+    position: relative;
+    top:2.3rem;
+    left:1.8rem;
+}
 .courses_underline{
     text-decoration: underline;
 }
@@ -506,6 +528,12 @@ footer{
 }
 .courses_border_top{
     border-top:1px solid grey;
+}
+.courses_border_bottom{
+    border-bottom:1px solid grey;
+}
+.courses_margin_bottom{
+    margin-bottom: 3rem;
 }
 .courses_column_Monday{
     height:10rem;
