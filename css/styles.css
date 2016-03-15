@@ -51,7 +51,7 @@ input{
 
 .items{
     width:12rem;
-    background-color:lavender
+    background-color:lavender;
 }
 
 
@@ -81,8 +81,18 @@ input{
     }
     .items{
     width:100%;
-    background-color:lavender
+    background-color:lavender;
+    height: 4rem;
+    border:1px solid grey;
 }
+    header{
+        height:auto;
+    }
+    
+    .items > a{
+        display: inline-block;
+        margin-top:10px;
+    }
     
 }
 
