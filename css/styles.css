@@ -15,10 +15,12 @@ body{
 }
 
 header{
-    margin:0;
+    display: block;
+    margin:0 auto;
     padding:0;
     width:100%;
-    height: 5rem;
+    height: 15rem;
+    text-align: center;
 }
 
 
@@ -31,6 +33,61 @@ input{
 }
 
 
+/* start flex-box trial for nav bar */
+
+#navbar{
+    background-color:lavender;
+    
+}
+
+.navbar_ul{
+    list-style: none;
+    font-size:1.8rem;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: flex-end;
+    padding:0;
+}
+
+.items{
+    width:12rem;
+    background-color:lavender
+}
+
+
+.navbar_ul a{
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;   
+}
+
+@media only screen and (max-width:940px){
+    
+    
+.navbar_ul{
+    justify-content: space-around;
+}
+
+.items{
+    flex-grow:1;
+}
+    
+}
+
+@media only screen and (max-width:897px){
+    
+    .navbar_ul{
+        flex-direction: column;
+    }
+    .items{
+    width:100%;
+    background-color:lavender
+}
+    
+}
+
+/* end flex box trial for nav bar */
+/*
 #navbar_hidden{
     display: none;
 }
@@ -57,8 +114,12 @@ footer{
     color:white;
     height:35rem;
 }
-
+*/
 /* web font from website */
+
+
+/*
+
 h3{
     font-family: 'franchise';
 }
@@ -133,9 +194,11 @@ h3{
     height:1.5rem;
     width:13rem;
 }
-
+*/
 /* start of media query, display nav bar as blocks and not inline */
 
+
+/*
 @media only screen and (max-width:767px){
     
     
@@ -238,9 +301,11 @@ header nav ul li a{
     main img{
         width:100%;
     }
+
+*/
     
 /* adjusting link images and text below it to work for media query */    
-    
+/*
     footer{
         height: 45rem;   
     }
@@ -256,6 +321,6 @@ header nav ul li a{
 
     
 }
-
+*/
 /* end of landing-page for geekwise-academy */
 
