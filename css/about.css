@@ -558,7 +558,7 @@ footer{
         width:9rem
     }
     .column2, .column3, .column4, column5, column6{
-        width:6rem
+        width:6.1rem;
     }
     #courses_title{
         display: none;
@@ -571,14 +571,66 @@ footer{
         height:auto;
         line-height: 2.5rem;
     }
+    #courses_subtitle2{
+        font-size:2.5rem;
+        height:auto;
+        line-height: 2.5rem;
+    }
+    #courses_subtitle3{
+        font-size:2.5rem;
+        height:auto;
+        line-height: 2.5rem;
+    }
+    #courses_subtitle4{
+        font-size:2.5rem;
+        height:auto;
+        line-height: 2.5rem;
+    }
+    #courses_subtitle5{
+        font-size:2.5rem;
+        height:auto;
+        line-height: 2.5rem;
+    }
     
     .courses_padding_bottom1{
         padding-bottom: 0rem;
     }
     
+}
+
+@media only screen and (max-width:708px){
     
+    .column1, .column2, .column3, .column4, .column5, .column6{
+        width:100%;
+        display: inline-block;
+        margin:0 auto;
+        text-align: center;
+    }
+    .column3{
+        padding-bottom: 4rem;
+    }
+    .courses_enroll{
+        width:100%;
+        display: inline-block;
+        position: relative;
+        top:-1rem;
+        left:0rem;
+        margin:0 auto;
+    }
+    .courses_enroll a{
+        width:100%;
+        display: inline-block;
+        margin:0 auto;
+    }
+    .courses_enroll a span{
+        font-weight: 600;
+        display: inline-block;
+        float: right;
+    }
     
 }
+    
+    
 
 
 /* end courses page*/
