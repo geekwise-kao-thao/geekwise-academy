@@ -431,7 +431,7 @@ footer{
     text-align: left;
     display:block;
     margin:0 auto;
-    width:90%;
+    width:70%;
     text-align: center;
 }
 #courses_main div p{
@@ -491,7 +491,9 @@ footer{
     width:10%;
     display: inline-block;
 }
-
+.courses_underline{
+    text-decoration: underline;
+}
 
 
 
@@ -522,7 +524,7 @@ footer{
     padding:0;
 }
 #workshops_fluff p{
-    width:90%;
+    width:90rem;
     display: inline-block;
     margin:0;
     padding:0;
@@ -540,7 +542,7 @@ footer{
     text-align: left;
     display:block;
     margin:0 auto;
-    width:90%;
+    width:90rem;
 }
 #workshops_main div{
     width:100%;
@@ -585,6 +587,8 @@ footer{
     margin:0 auto;
     background-color: #F9DA0C;
     text-align: center;
+    position:relative;
+    top:1rem;
 }
 #workshops_footer p span{
     display: inline-block;
@@ -592,19 +596,21 @@ footer{
     top:2rem;
 }
 
-@media only screen and (max-width:767px){
+@media only screen and (max-width:930px){
     
     #workshops_fluff{
     font-size:1.1rem;
 }
 #workshops_fluff p{
-    width:70%;
+    padding-left:1rem;
 }
-    /*
-    #workshops_footer{
-        font-size:1.1rem;
-        width:23rem;
-    }*/
+    #workshops_main{
+        width:98%;
+    }
+    #workshops_header{
+        height: auto;
+    }
+    
     
 }
 
