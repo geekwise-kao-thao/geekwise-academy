@@ -109,23 +109,25 @@ input{
     header{
         height: 30rem;
         height:auto;
+        width:100%;
     }
     
     label{
         display: block;
         height: 12%;
+        width:auto;
     }
     
     #bars{
         display: inline-block;
-        width:6%;
+        width:3rem;
         border:1px solid lightgrey;
         opacity:.3;
         margin:1.4rem 1.4rem 0 0;
         border-radius:5px;
         position:relative;
-        top:-3rem;
-        left:36rem;
+        top:1rem;
+        float:right;
     }
     img:hover{
         background-color:grey;
