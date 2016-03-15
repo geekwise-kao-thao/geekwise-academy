@@ -460,7 +460,7 @@ footer{
     font-size:1.4rem;
 }
 .courses_table p{
-    line-height:1rem;
+    line-height:1.2rem;
     text-align: center;
 }
 .courses_table p span{
@@ -540,13 +540,13 @@ footer{
     padding-top: 2rem
 }
 .courses_padding_bottom1{
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
 }
 .courses_padding_bottom2{
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 .courses_padding_bottom3{
-    padding-bottom: 8rem;
+    padding-bottom: 7.8rem;
 }
 
 /* end courses page*/
