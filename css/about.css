@@ -516,7 +516,7 @@ footer{
     width: 100%;
 }
 .courses_enroll a span{
-    position: relative;
+    position: absolute;
     top:2.3rem;
     left:1.8rem;
 }
@@ -548,6 +548,38 @@ footer{
 .courses_padding_bottom3{
     padding-bottom: 7.8rem;
 }
+
+@media only screen and (max-width:930px){
+    
+    #courses_main{
+        width:98%;
+    }
+    .courses_enroll{
+        width:9rem
+    }
+    .column2, .column3, .column4, column5, column6{
+        width:6rem
+    }
+    #courses_title{
+        display: none;
+    }
+    #courses_table1{
+        border:none;
+    }
+    #courses_subtitle1{
+        font-size:2.5rem;
+        height:auto;
+        line-height: 2.5rem;
+    }
+    
+    .courses_padding_bottom1{
+        padding-bottom: 0rem;
+    }
+    
+    
+    
+}
+
 
 /* end courses page*/
 
