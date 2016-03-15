@@ -7,7 +7,8 @@ html, body{
 }
 
 body{
-    margin:0;
+    display:block;
+    margin:0 auto;
     padding:0;
     width:100%;
     height: 100%;
@@ -35,23 +36,32 @@ input{
 
 /* start flex-box trial for nav bar */
 
+
+#icon_div{
+    width:17%;
+    display: inline-block;
+    float:left;
+}
 #navbar{
-    background-color:lavender;
-    
+    width:80%;
+    display: inline-block;
+    float: right;
+    height:5rem;
 }
 
 .navbar_ul{
     list-style: none;
-    font-size:1.8rem;
+    font-size:1.5rem;
     display: flex;
     flex-flow:row wrap;
     justify-content: flex-end;
     padding:0;
+    margin-top:1.5rem;
+    
 }
 
 .items{
-    width:12rem;
-    background-color:lavender;
+    width:10rem;
 }
 
 
@@ -60,7 +70,7 @@ input{
     color:black;
     text-transform: uppercase;   
 }
-
+/*
 @media only screen and (max-width:940px){
     
     
@@ -73,9 +83,14 @@ input{
 }
     
 }
-
+*/
 @media only screen and (max-width:897px){
     
+    #navbar{
+        width:100%;
+        height:auto;
+        display:none;
+    }
     .navbar_ul{
         flex-direction: column;
     }
@@ -94,7 +109,6 @@ input{
     header{
         height: 30rem;
         height:auto;
-        display: none;
     }
     
     label{
@@ -105,17 +119,19 @@ input{
     #bars{
         display: inline-block;
         width:6%;
-        float: right;
         border:1px solid lightgrey;
         opacity:.3;
         margin:1.4rem 1.4rem 0 0;
         border-radius:5px;
+        position:relative;
+        top:-3rem;
+        left:36rem;
     }
     img:hover{
         background-color:grey;
     }
     
-    input:checked + header{
+    input:checked + #navbar{
         display:block;
         
     }
