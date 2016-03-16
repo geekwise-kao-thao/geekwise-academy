@@ -10,37 +10,21 @@ body{
     height:100%;
     margin:0 auto;
     display: block;
+    text-align: center;
 }
 
 .container-fluid{
     background-color:lawngreen;
 }
-.col-xs-3{
-    text-align: center;
-    background-color:lightblue;
-}
-.col-xs-8{
-    text-align: center;
-    background-color: yellow;
-}
-.col-xs-1{
-    text-align: center;
-    background-color:white;
+
+img{
+    width:10rem;
 }
 
-.col-xs-2{
-    text-align: center;
-    background-color:coral;
+@media only screen and (max-width:440px){
+    
+    img{
+    width:5rem;
 }
-.col-xs-3{
-    text-align: center;
-}
-.col-xs-5{
-    text-align: center;
-    background-color:fuchsia;
-}
-
-.col-xs-6{
-    text-align: center;
-    background-color:darkgoldenrod;
+    
 }
