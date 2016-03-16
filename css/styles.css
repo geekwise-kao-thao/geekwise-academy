@@ -6,6 +6,10 @@ html, body{
     height:100%;
 }
 
+@font-face {
+  font-family: 'franchise';
+  src: url('Franchise-Bold.ttf');
+}
 
 body{
     margin:0;
@@ -323,4 +327,3 @@ header nav ul li a{
 }
 
 /* end of landing-page for geekwise-academy */
-
