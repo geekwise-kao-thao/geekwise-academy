@@ -6,10 +6,6 @@ html, body{
     height:100%;
 }
 
-@font-face {
-  font-family: 'franchise';
-  src: url('Franchise-Bold.ttf');
-}
 
 body{
     margin:0;
