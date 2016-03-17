@@ -67,18 +67,6 @@ header nav ul{
     display:inline-block;
     float: left;
 }
-
-/* added width increase to icon image when hovering */
-
-#icon_image{
-    transition:1s;
-}
-#icon_image:hover{
-    width:20rem;
-}
-
-/* end hover transition */
-
 header nav ul li:nth-child(1){
     width:13%;
 }
@@ -176,8 +164,6 @@ main div p{
     display: none;
 }
 
-/* added css animation to footer background color */
-
 .about_footer{
     background-color:#7A1501;
     display: block;
@@ -185,22 +171,9 @@ main div p{
     text-align: center;
     color:white;
     height:auto;
-    animation:color-me-in 5s;
 }
 
-@keyframes color-me-in{
-    0%{
-        background:#B32018;
-    }
-    50%{
-        background:black;
-    }
-    100%{
-        background:#7A1501;
-    }
-}
 
-/* end css animation to footer background color*/
 
 .info{
     display: inline-block;
@@ -487,7 +460,7 @@ footer{
     font-size:1.4rem;
 }
 .courses_table p{
-    line-height:1.2rem;
+    line-height:1.9rem;
     text-align: center;
 }
 .courses_table p span{
@@ -503,17 +476,17 @@ footer{
 
 .column2{
     height:auto;
-    width:9%;
+    width:6%;
     display: inline-block;
 }
 .column3{
     height:auto;
-    width:9%;
+    width:8%;
     display: inline-block;
 }
 .column4{
     height:auto;
-    width:9%;
+    width:8%;
     display: inline-block;
 }
 .column5{
@@ -544,7 +517,7 @@ footer{
 }
 .courses_enroll a span{
     position: absolute;
-    top:2.3rem;
+    top:2rem;
     left:1.8rem;
 }
 .courses_underline{
@@ -567,13 +540,17 @@ footer{
     padding-top: 2rem
 }
 .courses_padding_bottom1{
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
 .courses_padding_bottom2{
-    padding-bottom: 1rem;
+    padding-bottom: .3rem;
 }
 .courses_padding_bottom3{
-    padding-bottom: 7.8rem;
+    padding-bottom: 7rem;
+}
+.courses_position_top{
+    position:relative;
+    top:.6rem;
 }
 
 @media only screen and (max-width:930px){
@@ -585,7 +562,7 @@ footer{
         width:9rem
     }
     .column2, .column3, .column4, column5, column6{
-        width:6.1rem;
+        width:6.5rem;
     }
     #courses_title{
         display: none;
@@ -625,8 +602,9 @@ footer{
     
 }
 
-@media only screen and (max-width:708px){
+@media only screen and (max-width:748px){
     
+
     .column1, .column2, .column3, .column4, .column5, .column6{
         width:100%;
         display: inline-block;
@@ -634,7 +612,16 @@ footer{
         text-align: center;
     }
     .column3{
-        padding-bottom: 4rem;
+        padding:0;
+    }
+    .courses_column_Monday{
+        height:auto;
+    }
+    .courses_padding_bottom2{
+        padding:0;
+    }
+    .courses_padding_bottom3{
+        padding-bottom: 1rem;
     }
     .courses_enroll{
         width:100%;
@@ -768,6 +755,8 @@ footer{
 }
 #workshops_fluff p{
     padding-left:1rem;
+    width:100%;
+    float:left;
 }
     #workshops_main{
         width:98%;
@@ -968,19 +957,10 @@ footer{
    
  /* second label and input*/
 
-    
-    
     .cohort_div{
         width:auto;
         height:auto;
     }
-
-/* added margin top to div with paragraph content so that at phone size the title does not overlap the paragraph content*/
-    #cohort_content{
-        margin-top:3rem;
-    }
-    
-/* adjusting cohort pictures */
     .cohort_pictures_div{
         height:auto;
     }
@@ -1128,45 +1108,11 @@ footer{
     background-color:#7A1501;
     height:40rem;
 }
-/* start paragraph animation */
-
-#belief{
-    animation-duration: 3s;
-    animation-name:slidein;
-}
-
-@keyframes slidein{
-    from{
-        margin-left:100%;
-        width:100%;
-    }
-    to{
-        margin-left:0%;
-        width:100%;
-    }
-}
-
-/* end paragraph animation */
 
 #pictures_div{
     display:inline-block;
     margin:0 auto;
     width:100%;
-    animation-duration:5s;
-    animation-name:slidein;
-    animation-iteration-count:infinite;
-    animation-direction:alternate;
-}
-
-@keyframes slidein{
-    from{
-        margin-left:100%;
-        width:300%;
-    }
-    to{
-        margin-left:0%;
-        width:100%;
-    }
 }
 
 #pictures_div p{
@@ -1259,110 +1205,11 @@ footer{
         height:auto;
         background-color:#7A1501;
     }
-    
-    /* animation trial for pictures in team page */
-
-/* jakes' animation */
-
-#jake_soberal{
-    display:inline-block;
-    margin:0 auto;
-    width:100%;
-    animation-duration:3s;
-    animation-name:slidein;
-    animation-iteration-count:infinite;
-    animation-direction:alternate;
-}
-
-@keyframes slidein{
-    from{
-        margin-left:100%;
-        width:300%;
-    }
-    to{
-        margin-left:0%;
-        width:100%;
-    }
-}
-
-/* irma's animation */
-
-#irma_olguin{
-    display:inline-block;
-    margin:0 auto;
-    width:100%;
-    animation-duration:3s;
-    animation-name:slidein;
-    animation-iteration-count:infinite;
-    animation-direction:alternate;
-    animation-delay:.2s;
-}
-
-@keyframes slidein{
-    from{
-        margin-left:100%;
-        width:300%;
-    }
-    to{
-        margin-left:0%;
-        width:100%;
-    }
-}
-
-/* beth's animation */
-
-#beth_mily{
-    display:inline-block;
-    margin:0 auto;
-    width:100%;
-    animation-duration:3s;
-    animation-name:slidein;
-    animation-iteration-count:infinite;
-    animation-direction:alternate;
-    animation-delay:.4s;
-}
-
-@keyframes slidein{
-    from{
-        margin-left:100%;
-        width:300%;
-    }
-    to{
-        margin-left:0%;
-        width:100%;
-    }
-}
-
-/* terry's animation */
-
-#terry_solis{
-    display:inline-block;
-    margin:0 auto;
-    width:100%;
-    animation-duration:3s;
-    animation-name:slidein;
-    animation-iteration-count:infinite;
-    animation-direction:alternate;
-    animation-delay:.6s;
-    
-}
-
-@keyframes slidein{
-    from{
-        margin-left:100%;
-        width:300%;
-    }
-    to{
-        margin-left:0%;
-        width:100%;
-    }
-}
-    
 #pictures_div p{
     display:block;
     margin:0 auto;
     width:100%;
-    text-align:left;
+    text-align: center;
 }
 
 .pictures img{
@@ -1374,7 +1221,7 @@ footer{
 .span_font{
     font-size: 1.1rem;
     display: block;
-    width:12rem;
+    width:100%;
     text-align: center;
     text-transform: uppercase;
     color:black;
@@ -1392,24 +1239,8 @@ footer{
     .team_nav_div{
         display:none;
     }
-    
-    #bars{
-        background-color:lightgrey;
-        opacity:1;
-        border:1px solid grey;
-        transition:
-            opacity .5s 1s,
-            border .5s 1s,
-            background-color .5s 1s;
-    }
-    
     #bars:hover{
-        background-color:#7A1501;
-        box-shadow:2px 2px 2px #000000;
-        width:6rem;
-        border:5px solid yellow;
-        opacity:.5;
-        
+        background-color:grey;
     }
     input:checked + div{
         display: block;
@@ -1526,21 +1357,7 @@ footer{
     bottom:7rem;
     right:5rem;
     text-transform: uppercase;
-    animation-name:signup-link;
-    animation-duration:3s;
-    
 }
-
-@keyframes signup-link{
-    from{
-        margin-right:100%;
-    }
-    to{
-        margin-right:0%;
-    }
-            
-}
-
 
 .signup_link span{
     position:relative;
