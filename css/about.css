@@ -968,10 +968,19 @@ footer{
    
  /* second label and input*/
 
+    
+    
     .cohort_div{
         width:auto;
         height:auto;
     }
+
+/* added margin top to div with paragraph content so that at phone size the title does not overlap the paragraph content*/
+    #cohort_content{
+        margin-top:3rem;
+    }
+    
+/* adjusting cohort pictures */
     .cohort_pictures_div{
         height:auto;
     }
