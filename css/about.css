@@ -553,6 +553,8 @@ footer{
     top:.6rem;
 }
 
+/* begin media query with max-width of 930px for courses page */
+
 @media only screen and (max-width:930px){
     
     #courses_main{
@@ -602,6 +604,8 @@ footer{
     
 }
 
+/* had to add another media query for courses page for phone size because layout changed from columns to rows */
+
 @media only screen and (max-width:748px){
     
 
@@ -647,9 +651,6 @@ footer{
     }
     
 }
-    
-    
-
 
 /* end courses page*/
 
@@ -747,6 +748,8 @@ footer{
     position:relative;
     top:2rem;
 }
+
+/* start media query for workshops page */
 
 @media only screen and (max-width:930px){
     
@@ -894,6 +897,9 @@ footer{
     text-align:left;
     width:90%;
 }
+
+/* added extra footer to make it look like the is a space between the cohort label and the bottom of page, but it was breaking too much so it was greyed out.  may or may not use it again */
+
 /*
 .extra_footer{
     display:block;
@@ -953,6 +959,8 @@ footer{
     
 }
 
+/* added phone size media query for cohort page to display the images and its content in one column only */
+
 @media only screen and (max-width:767px){
    
  /* second label and input*/
@@ -997,9 +1005,6 @@ footer{
     top:2rem;
     }
 }
-
-
-
 
 
 /* end cohort page */
@@ -1255,6 +1260,7 @@ footer{
 
 
 /* start contact page */
+
 .contact_header{
     background-color:#7A1501;
 }
@@ -1451,7 +1457,7 @@ footer{
     height:2rem;
 }
 
-/* start media query for sign up page */
+/* start media query for sign up page.  made width 100% */
 
 @media only screen and (max-width:930px){
     
@@ -1462,15 +1468,11 @@ footer{
         height:auto;
     }
     
-    
-    
 }
-
-
-
-
 
 /* end media query for sign up page */
 
 
 /* end of sign up page */
+
+/* end of css for the seven pages plus the landing page, which is on styles.css file */
