@@ -1092,11 +1092,45 @@ footer{
     background-color:#7A1501;
     height:40rem;
 }
+/* start paragraph animation */
+
+#belief{
+    animation-duration: 3s;
+    animation-name:slidein;
+}
+
+@keyframes slidein{
+    from{
+        margin-left:100%;
+        width:100%;
+    }
+    to{
+        margin-left:0%;
+        width:100%;
+    }
+}
+
+/* end paragraph animation */
 
 #pictures_div{
     display:inline-block;
     margin:0 auto;
     width:100%;
+    animation-duration:5s;
+    animation-name:slidein;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+@keyframes slidein{
+    from{
+        margin-left:100%;
+        width:300%;
+    }
+    to{
+        margin-left:0%;
+        width:100%;
+    }
 }
 
 #pictures_div p{
@@ -1189,11 +1223,110 @@ footer{
         height:auto;
         background-color:#7A1501;
     }
+    
+    /* animation trial for pictures in team page */
+
+/* jakes' animation */
+
+#jake_soberal{
+    display:inline-block;
+    margin:0 auto;
+    width:100%;
+    animation-duration:3s;
+    animation-name:slidein;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    
+}
+
+@keyframes slidein{
+    from{
+        margin-left:100%;
+        width:300%;
+    }
+    to{
+        margin-left:0%;
+        width:100%;
+    }
+}
+
+/* irma's animation */
+
+#irma_olguin{
+    display:inline-block;
+    margin:0 auto;
+    width:100%;
+    animation-duration:3s;
+    animation-name:slidein;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-delay:.2s;
+}
+
+@keyframes slidein{
+    from{
+        margin-left:100%;
+        width:300%;
+    }
+    to{
+        margin-left:0%;
+        width:100%;
+    }
+}
+
+/* beth's animation */
+
+#beth_mily{
+    display:inline-block;
+    margin:0 auto;
+    width:100%;
+    animation-duration:3s;
+    animation-name:slidein;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-delay:.4s;
+}
+
+@keyframes slidein{
+    from{
+        margin-left:100%;
+        width:300%;
+    }
+    to{
+        margin-left:0%;
+        width:100%;
+    }
+}
+
+/* terry's animation */
+
+#terry_solis{
+    display:inline-block;
+    margin:0 auto;
+    width:100%;
+    animation-duration:3s;
+    animation-name:slidein;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-delay:.6s;
+}
+
+@keyframes slidein{
+    from{
+        margin-left:100%;
+        width:300%;
+    }
+    to{
+        margin-left:0%;
+        width:100%;
+    }
+}
+    
 #pictures_div p{
     display:block;
     margin:0 auto;
     width:100%;
-    text-align: center;
+    text-align:left;
 }
 
 .pictures img{
@@ -1205,7 +1338,7 @@ footer{
 .span_font{
     font-size: 1.1rem;
     display: block;
-    width:100%;
+    width:12rem;
     text-align: center;
     text-transform: uppercase;
     color:black;
