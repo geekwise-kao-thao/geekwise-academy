@@ -67,6 +67,18 @@ header nav ul{
     display:inline-block;
     float: left;
 }
+
+/* added width increase to icon image when hovering */
+
+#icon_image{
+    transition:1s;
+}
+#icon_image:hover{
+    width:20rem;
+}
+
+/* end hover transition */
+
 header nav ul li:nth-child(1){
     width:13%;
 }
@@ -164,6 +176,8 @@ main div p{
     display: none;
 }
 
+/* added css animation to footer background color */
+
 .about_footer{
     background-color:#7A1501;
     display: block;
@@ -171,9 +185,22 @@ main div p{
     text-align: center;
     color:white;
     height:auto;
+    animation:color-me-in 5s;
 }
 
+@keyframes color-me-in{
+    0%{
+        background:#B32018;
+    }
+    50%{
+        background:black;
+    }
+    100%{
+        background:#7A1501;
+    }
+}
 
+/* end css animation to footer background color*/
 
 .info{
     display: inline-block;
@@ -1236,7 +1263,6 @@ footer{
     animation-name:slidein;
     animation-iteration-count:infinite;
     animation-direction:alternate;
-    
 }
 
 @keyframes slidein{
@@ -1309,6 +1335,7 @@ footer{
     animation-iteration-count:infinite;
     animation-direction:alternate;
     animation-delay:.6s;
+    
 }
 
 @keyframes slidein{
