@@ -1526,7 +1526,21 @@ footer{
     bottom:7rem;
     right:5rem;
     text-transform: uppercase;
+    animation-name:signup-link;
+    animation-duration:3s;
+    
 }
+
+@keyframes signup-link{
+    from{
+        margin-right:100%;
+    }
+    to{
+        margin-right:0%;
+    }
+            
+}
+
 
 .signup_link span{
     position:relative;
