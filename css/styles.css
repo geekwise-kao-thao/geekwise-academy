@@ -150,6 +150,7 @@ footer{
     font-family: 'franchise';
 }*/
 
+/* second attempt to use @font-face, not working */
 
 .fluff{
     width:70%;
@@ -157,14 +158,20 @@ footer{
     font-size:3rem;
 }
 
+@font-face {
+    font-family: 'ciria';
+    src: url('ciria-bold.woff');
+}
+
 h2{
     text-transform: uppercase;
     margin:0;
-    padding:0;font-family: 'Franchise Bold';
+    padding:0;
 }
 h3{
     margin:0;
     padding:0;
+    font-family: 'ciria';
 }
 
 /* used <hr> instead of coloring border bottom to a div, id="divider" */
