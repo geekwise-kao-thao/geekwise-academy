@@ -1392,8 +1392,24 @@ footer{
     .team_nav_div{
         display:none;
     }
+    
+    #bars{
+        background-color:lightgrey;
+        opacity:1;
+        border:1px solid grey;
+        transition:
+            opacity .5s 1s,
+            border .5s 1s,
+            background-color .5s 1s;
+    }
+    
     #bars:hover{
-        background-color:grey;
+        background-color:#7A1501;
+        box-shadow:2px 2px 2px #000000;
+        width:6rem;
+        border:5px solid yellow;
+        opacity:.5;
+        
     }
     input:checked + div{
         display: block;
