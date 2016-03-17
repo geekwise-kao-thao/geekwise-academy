@@ -1336,13 +1336,23 @@ footer{
     font-size:1rem;
     line-height:4rem;
 }
+.contact_info a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+}
 
 .dif_color{
-    color:#7A1501;
+    color:black;
+    font-weight: 600;
 }
 
 .email{
-    font-size:.8rem;
+    font-size:.9rem;
+}
+.email a{
+    text-decoration: none;
+    color:#7A1501;
 }
 .signup_link{
     font-family: sans-serif;
