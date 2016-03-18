@@ -1292,11 +1292,20 @@ footer{
 #jake_footer{
     height:auto;
 }
+#jake_footer > div{
+    height:auto;
+}
+#jake_footer > div > div{
+    height:auto;
+    padding-bottom: 5rem;
+}
+#jake_footer > div > div:nth-child(1) > p{
+    text-align: left;
+}
 
 #belief{
     width:50%;
     height:50rem;
-    
 }
 
 #jake_div{
