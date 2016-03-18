@@ -1245,6 +1245,7 @@ footer{
     margin:0 auto;
     width:100%;
     text-align: center;
+    margin-top:2rem;
 }
 
 .pictures img{
@@ -1304,12 +1305,14 @@ footer{
 .jake_left{
     padding:1rem 0 1rem 0;
     font-weight: 600;
-    height: 3rem
+    height: 3rem;
+    width:100%;
     
 }
 .jake_left > span{
     display: inline-block;
     float: left;
+    text-align: left;
 }
 #belief{
     width:50%;
@@ -1335,6 +1338,26 @@ footer{
     padding:1rem 0 1rem 0;
 }
 
+/* start media query for jake page */
+
+@media only screen and (max-width:767px){
+    
+#belief{
+    width:100%;
+    padding-bottom: 0rem;
+}
+
+#jake_div{
+    width:100%;
+    
+}
+  
+#jake_picture{ 
+    margin-top:0rem
+} 
+    
+}
+
 /* end jake page */
 
 /* start irma page: none added:  end irma page */
@@ -1343,7 +1366,7 @@ footer{
 
 /* start terry page: none added:  end terry page */
 
-
+/* copied and pasted jake page to irma, beth, and terry's pages.  made changes to text contents and images only */
 
 
 /* start contact page */
