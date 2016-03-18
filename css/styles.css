@@ -173,11 +173,12 @@ footer{
     src: url('../fonts/franchise-bold-webfont.woff');
 }
 
-h2{
+#h3_1{
     text-transform: uppercase;
     margin:0;
     padding:0;
     font-family:'franchise';
+    padding-top:3rem
 }
 
 @font-face {
@@ -185,7 +186,7 @@ h2{
     src: url('../fonts/ciria-bold.woff');
 }
 
-h3{
+#h3_2{
     margin:0;
     padding:0;
     font-family: 'ciria';
