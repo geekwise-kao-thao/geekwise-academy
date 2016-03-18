@@ -191,7 +191,7 @@ h3{
 /* this part targets the three icons images at the bottom */
 
 .links p:nth-child(1){
-    width:calc(100%/3);
+    width:calc(99%/3);
     float: left;
     border-right: 1px solid white;
     display:block;
@@ -217,10 +217,12 @@ h3{
 .link_images{
     display: block;
     margin:0;
-    
 }
+
 .link_images a{
     display:inline-block;
+    width:auto;
+    color:white;
     width:auto;
 }
 
@@ -235,7 +237,7 @@ h3{
     padding:0;
     display: inline-block;
     height:1.5rem;
-    width:13rem;
+    width:100%;
 }
 
 /* start of media query, display nav bar as blocks and not inline */
@@ -361,6 +363,11 @@ header nav ul li a{
     width:100%;
 }
 
+    footer{
+        height: auto;
+        padding-bottom: 5rem;
+    }
+    
 .link_images span{
     font-size: 1.3rem;
     width:100%;
