@@ -1337,6 +1337,11 @@ footer{
 
 /* start beth page */
 
+#beth_span{
+    position:relative;
+    top:3rem;
+    left:-18rem;
+}
 
 /* end beth page */
 
