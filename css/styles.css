@@ -169,15 +169,22 @@ footer{
 }
 
 @font-face {
-    font-family: 'ciria';
-    src: url('ciria-bold.woff');
+    font-family: 'franchise';
+    src: url('../fonts/franchise-bold-webfont.woff');
 }
 
 h2{
     text-transform: uppercase;
     margin:0;
     padding:0;
+    font-family:'franchise';
 }
+
+@font-face {
+    font-family: 'ciria';
+    src: url('../fonts/ciria-bold.woff');
+}
+
 h3{
     margin:0;
     padding:0;
