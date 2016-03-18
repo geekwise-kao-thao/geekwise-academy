@@ -1294,6 +1294,8 @@ footer{
 }
 #jake_footer > div{
     height:auto;
+    margin:0 auto;
+    display: inline-block;
 }
 #jake_footer > div > div{
     height:auto;
@@ -1302,14 +1304,25 @@ footer{
 #jake_footer > div > div:nth-child(1) > p{
     text-align: left;
 }
-
+.jake_left{
+    float: left;
+    padding:1rem 0 1rem 0;
+    font-weight: 600;
+}
 #belief{
     width:50%;
     height:50rem;
 }
 
 #jake_div{
-    width:50%
+    width:50%;
+    margin-top:5rem;
+    float:right;
+}
+
+#jake_picture{
+    width:100%;
+    
 }
 
 /* start contact page */
