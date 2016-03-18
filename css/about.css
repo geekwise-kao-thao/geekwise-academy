@@ -1115,9 +1115,15 @@ footer{
 .team_text{
     width:100%;
 }
-.team_text p{
+.team_text > p{
     text-align: center;
     color:white;
+    width:100%;
+}
+
+#team_paragraph{
+    width:100%;
+    
 }
 
 .team_footer{
@@ -1139,12 +1145,24 @@ footer{
     
 }
 
+.team_images_link{
+    text-decoration: none;
+    opacity:.5;
+    height:100%;
+    width:auto;
+    display: inline-block;
+}
+
+.team_images_link:hover{
+    opacity:1;
+}
+
 .pictures img{
     width: auto;
 }
 
 .span_font{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     display: block;
     width:100%;
     text-align: center;
