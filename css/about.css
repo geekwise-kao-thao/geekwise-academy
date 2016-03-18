@@ -729,14 +729,14 @@ footer{
     position:relative;
     top:-50rem;
 }
-#workshops_footer{
+.workshops_footer{
     font-size: 1.4rem;
     display: inline-block;
     height: 5rem;
     width:100%;
     margin:0 auto;
 }
-#workshops_footer p{
+.workshops_footer p{
     display: inline-block;
     height: 5rem;
     width:30rem;
@@ -744,7 +744,17 @@ footer{
     background-color: #F9DA0C;
     text-align: center;
 }
-#workshops_footer p span{
+
+.workshops_footer p a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+    display: inline-block;
+    width:100%;
+    height:100%;
+}
+
+.workshops_footer p span{
     display: inline-block;
     position:relative;
     top:2rem;
