@@ -1304,6 +1304,7 @@ footer{
 .jake_left{
     padding:1rem 0 1rem 0;
     font-weight: 600;
+    height: 3rem
     
 }
 .jake_left > span{
@@ -1330,15 +1331,20 @@ footer{
     margin-top:7rem
 }
 
+#jake_span{
+    padding:1rem 0 1rem 0;
+}
 
 /* end jake page */
 
 /* start irma page: none added:  end irma page */
 
-/* start beth page */
+/* start beth page: none added:  end beth page */
+
+/* start terry page: none added:  end terry page */
 
 
-/* end beth page */
+
 
 /* start contact page */
 
