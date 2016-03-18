@@ -50,17 +50,19 @@ header nav ul{
     padding:0;
     display: inline-block; 
     margin:0 auto;
-    width:50rem;
+    width:55rem;
     height:100%;
 }
 
 header nav ul li{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     display:inline-block;
     height:100%;
     margin:0;
     padding:0;
-    font-family: sans-serif
+    font-family: sans-serif;
+    font-weight: 600;
+    
 }
 
 header nav ul li:hover{
@@ -88,11 +90,13 @@ header nav ul li:nth-child(4){
 header nav ul li:nth-child(5){
     width:11%;
     background-color:#F9DA0C;
-    font-size:1.1rem;
+    font-size:1.2rem;
 }
+
 header nav ul li:nth-child(6){
     width:10%;
 }
+
 header nav ul li:nth-child(7){
     width:14%;
 }
@@ -109,6 +113,12 @@ header nav ul li a{
 header nav ul li a span{
     position: relative;
     top:1.3rem;
+}
+
+#yellow{
+    color:#7A1501;
+    font-weight: 100;
+    
 }
 
 /* had to display navbar as hidden for later use in media query for dropdown menu */
@@ -341,7 +351,7 @@ header nav ul li a{
         width: 20%;
         background-color:#F9DA0C;
     }
-
+    
     header nav ul li span:hover{
     background-color:#F9DA0C;
 }
