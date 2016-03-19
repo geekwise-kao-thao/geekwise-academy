@@ -799,7 +799,10 @@ footer{
     display:inline-block;
     text-align:center;
 }
-
+#cohort_content{
+    display: inline-block;
+    width:90rem;
+}
 .content{
     text-transform:none; 
     font-size:1.7rem;
@@ -926,7 +929,10 @@ footer{
 /* start media query for cohort page */
 @media only screen and (max-width:1017px){
     
-
+    #cohort_content{
+        width:98%;
+        margin-top:3rem;
+    }
 .cohort_label{
     width:100%;
 }
