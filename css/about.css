@@ -886,7 +886,6 @@ footer{
 #cohort_title{
     font-size:2.5rem;
     color:white;
-    padding:2rem 0 2rem 0;
 }
 .cohort_pictures_div{
     background-color:#ffffff;
@@ -936,6 +935,7 @@ footer{
 .cohort_label{
     width:100%;
 }
+    
  /* second label and input*/
 
 .cohort_label2{
@@ -1121,7 +1121,7 @@ footer{
 .team_text{
     width:100%;
     font-size:2rem;
-    margin:7rem 0 5rem 0;
+    margin:3rem 0 2rem 0;
 }
 .team_text > p{
     text-align: center;
