@@ -7,6 +7,11 @@ html, body{
     font-family:sans-serif;
 }
 
+@font-face {
+    font-family: 'franchise';
+    src: url('../fonts/franchise-bold-webfont.woff');
+}
+
 body{
     margin:0;
     padding:0;
@@ -155,6 +160,13 @@ main div p{
     display: inline-block;
     float:right;
     width:100%;
+    font-family: 'franchise';
+    font-size: 3.5rem;
+}
+
+#l{
+    display: inline-block;
+    font-size: 4.1rem
 }
 
 #dropdown{
@@ -234,6 +246,8 @@ p{
 .subheadings{
     font-weight: 700;
     margin:10px 0 10px 0;
+    font-family: franchise;
+    font-size:3rem;
 }
 .line_height{
     padding: 1rem;

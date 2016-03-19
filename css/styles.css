@@ -204,6 +204,7 @@ footer{
     display: inline-block;
     width:70%;
     height:auto;
+    font-family: sans-serif;
 }
 
 /* this part targets the three icons images at the bottom */
