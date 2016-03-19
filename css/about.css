@@ -160,6 +160,10 @@ main div p{
     display: inline-block;
     float:right;
     width:100%;
+}
+
+#about_learn{
+    
     font-family: 'franchise';
     font-size: 3.5rem;
 }
@@ -450,6 +454,7 @@ footer{
     width:90rem;
     text-align: center;
 }
+
 #courses_main div p{
     text-align: left;
     text-transform: none;
@@ -492,12 +497,12 @@ footer{
 
 .column2{
     height:auto;
-    width:6%;
+    width:7%;
     display: inline-block;
 }
 .column3{
     height:auto;
-    width:8%;
+    width:9%;
     display: inline-block;
 }
 .column4{
@@ -540,7 +545,7 @@ footer{
     text-decoration: underline;
 }
 .courses_bold{
-    font-weight: 800;
+    font-weight: 600;
 }
 .courses_border_top{
     border-top:1px solid grey;
@@ -684,7 +689,7 @@ footer{
 }
 
 #workshops_fluff{
-    font-size:1.5rem;
+    font-size:2.3rem;
     display:block;
     margin:0 auto;
     background-color:#7A1501;
@@ -693,6 +698,7 @@ footer{
     color:white;
     font-weight: 600;
     padding:0;
+    font-family: franchise;
 }
 #workshops_fluff p{
     width:90rem;
@@ -731,6 +737,12 @@ footer{
 .workshops_font_weight{
     font-weight:600;
 }
+
+.workshops_font_family{
+    font-family: franchise;
+    font-size:2.2rem
+}
+
 .workshops_underline{
     border-bottom: 1px solid grey;
     width:100%;
@@ -812,6 +824,11 @@ footer{
     top:-3rem;
     display:inline-block;
     text-align:center;
+    font-family: franchise;
+    font-size:3.2rem;
+}
+.capital_letters{
+    font-size:4rem;
 }
 #cohort_content{
     display: inline-block;
@@ -1115,6 +1132,10 @@ footer{
 #the_team{
     width:auto;
     float:none;
+    font-family: franchise;
+    font-size: 5rem;
+    position:relative;
+    top:-5rem;
 }
 
 
@@ -1590,9 +1611,10 @@ footer{
 }
 .font_bold{
     font-weight: 600;
-    font-size:3rem;
+    font-size:4rem;
     text-align:center;
     padding:1rem 0 1rem 0;
+    font-family: franchise;
 }
 .days{
     font-size:1.2rem;
