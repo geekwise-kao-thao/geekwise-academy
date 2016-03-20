@@ -117,8 +117,8 @@ header nav ul li a span{
 
 #yellow{
     color:#7A1501;
-    font-weight: 100;
-    
+    font-weight: 600;
+    font-size:1.3rem;
 }
 
 /* had to display navbar as hidden for later use in media query for dropdown menu */
