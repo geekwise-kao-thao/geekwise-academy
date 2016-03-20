@@ -1338,6 +1338,22 @@ footer{
     
 }
 
+/* media query at max-width 313px */
+
+@media only screen and (max-width:313px){
+    
+    
+    
+.team_signup{
+    position:absolute;
+    top:6rem;
+    transform: translateX(-6.5rem);
+}
+}
+
+
+
+
 /* end media query for team page */
 
 /* end team page */
