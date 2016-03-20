@@ -792,7 +792,7 @@ footer{
 @media only screen and (max-width:930px){
     
     #workshops_fluff{
-    font-size:1.1rem;
+    font-size:2.1rem;
 }
 #workshops_fluff p{
     padding-left:1rem;
@@ -828,7 +828,7 @@ footer{
     font-size:3.2rem;
 }
 .capital_letters{
-    font-size:4rem;
+    font-size:3.8rem;
 }
 #cohort_content{
     display: inline-block;
@@ -1053,6 +1053,18 @@ footer{
     top:2rem;
     }
 }
+
+/* media query for cohort page max width 283px */
+
+
+@media only screen and (max-width:313px){
+    
+    .cohort_position{
+        position:relative;
+        top:-7rem;
+    }
+}
+
 
 
 /* end cohort page */
