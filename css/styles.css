@@ -4,6 +4,7 @@ html, body{
     font-size:62.5%;
     width:100%;
     height:100%;
+    background-color:#7a1501;
 }
 
 /* @font-face didn't work, it may be due to unzipping the file downloaded from the page.  will have to retry after learning how to unzip files */
@@ -22,6 +23,7 @@ body{
     width:100%;
     height: 100%;
     text-align: center;
+    background-color:white;
 }
 
 header{
