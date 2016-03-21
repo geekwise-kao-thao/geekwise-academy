@@ -973,16 +973,19 @@ footer{
     width:100%;
 }
     .cohort_div{
-        width:auto;
+        width:100%;
     }
     .cohort_pictures_div{
         width:100%;
-        height:110rem;
+        height:auto;
+        display: inline-block;
     }
-.cohort_pic{
+.cohort_pictures_div > p{
     text-align: center;
     margin-top:5px;   
     width:calc(100%/3);
+    display: inline-block;
+    
 }
     
     .cohort_pic:nth-child(7){
