@@ -23,6 +23,10 @@ body{
     width:100%;
     height: 100%;
     text-align: center;
+    background-color:#7a1501;
+}
+
+#index_label{
     background-color:white;
 }
 
@@ -380,7 +384,7 @@ header nav ul li a{
 /* adjusting link images and text below it to work for media query */    
     
     footer{
-        height: 45rem;   
+        height: auto;   
     }
     
 .links{
