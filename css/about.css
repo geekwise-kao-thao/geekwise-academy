@@ -815,13 +815,11 @@ footer{
 
 /* begin cohort page */
 
-.cohort_main{
-    height:10rem;
+.cohort_main div{
+    height: auto;
 }
 
 .cohort_position{
-    position: relative;
-    top:-3rem;
     display:inline-block;
     text-align:center;
     font-family: franchise;
@@ -833,6 +831,7 @@ footer{
 #cohort_content{
     display: inline-block;
     width:90rem;
+    height: auto;
 }
 .content{
     text-transform:none; 
@@ -1010,6 +1009,30 @@ footer{
     
 }
 
+/* cohort media query max width 930px, to keep owl visible */
+
+@media only screen and (max-width:930px){
+    
+    #cohort_owl_visible{
+        display: block;
+        margin-top:3.5rem;
+    }
+    
+    #cohort_nav{
+        background-color: white;
+    }
+    
+    .cohort_position{
+        height: auto;
+    }
+    
+    #cohort_content{
+        margin-top:7rem;
+    }
+    
+    
+}
+
 /* added phone size media query for cohort page to display the images and its content in one column only */
 
 @media only screen and (max-width:767px){
@@ -1062,9 +1085,8 @@ footer{
 
 @media only screen and (max-width:313px){
     
-    .cohort_position{
-        position:relative;
-        top:-7rem;
+    #cohort_content{
+        margin-top:11rem;
     }
 }
 
@@ -1280,11 +1302,13 @@ footer{
     .main{
         display:block;
         width:100%;
+        height: auto;
     }
     #main_div{
         display:block;
         margin:0 auto;
         width:100%;
+        height: auto;
     }
     .team_image{
         display:none;
