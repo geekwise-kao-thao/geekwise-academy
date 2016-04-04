@@ -678,7 +678,7 @@ footer{
 /* begin workshops page */
 
 #workshops_header{
-    height:18rem;
+    height:14rem;
 }
 
 #workshops_active{
@@ -1296,7 +1296,8 @@ footer{
         display:block;
         position:absolute;
         top:6rem;
-        left:8rem;
+        left:11rem;
+        font-weight: 600;
     }
     
     .main{
@@ -1365,17 +1366,18 @@ footer{
     
 }
 
-/* media query at max-width 313px */
+/* media query at max-width 284px */
 
-@media only screen and (max-width:313px){
+@media only screen and (max-width:284px){
     
     
     
 .team_signup{
     position:absolute;
     top:6rem;
-    transform: translateX(-6.5rem);
+    transform: translateX(-10rem);
 }
+    
 }
 
 
@@ -1491,7 +1493,6 @@ footer{
 }
 
 .added_signup a span{
-    
     color:#7A1501;
 }
 .contact_active{
