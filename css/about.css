@@ -59,14 +59,7 @@ header nav ul{
     display: inline-block;
     float: right;
     font-weight: 600;
-}
-
-.nav_div li{
-    font-size: 1.4rem;
-    display:inline-block;
-    height:40%;
-    margin:0;
-    padding:0;    
+    margin-top:2rem;
 }
 
 #icon{
@@ -303,13 +296,8 @@ p{
     width:100%;
     font-weight: 600;
     position:relative;
-    top:0rem;
+    top:-2rem;
 }
-
-.nav_div li{
-    font-size: 1.5rem;
-}
-
     
 .nav_div li:nth-child(1){
     width:100%;
@@ -1133,10 +1121,6 @@ footer{
     position:relative;
     top:.5rem;
 }
-.team_nav_div li a span{
-    position:relative;
-    top:1.5rem;
-}
 
 .team_nav_div li:nth-child(1){
     width:12%;
@@ -1282,8 +1266,6 @@ footer{
         margin-top:-8rem;
     }
     .team_nav_div{
-        display: block;
-        margin:0 auto;
         height:40rem;
         width:100%;
     }  
