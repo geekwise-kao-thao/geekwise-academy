@@ -48,7 +48,7 @@ header nav ul{
 .icon_div{
     display: inline-block;
     float:left;
-    height: 100%;
+    height: 12.2rem;
     width:19%;
     position: relative;
     top:1rem;
@@ -349,13 +349,35 @@ header nav ul li a span{
     .display_none{
         display: none;
     }
-    label{
+    #bars_label_tag{
         display: block;
         margin:0 auto;
-        height:15rem;
-        width:50%;
+        height:3.1rem;
+        width:4.2rem;
         float: right;
+        position:relative;
+        top:8.5rem;
+        right:1.5rem;
+        border-radius:4px;
+        border: 1px solid white;
     }
+    
+    .bars_div{
+        display: block;
+        margin: 0 auto;
+        position:relative;
+        top:4px
+        
+    }
+    
+    .bar_line{
+        width:2.2rem;
+        border-bottom:2px solid #888888;
+        margin-top:2px;
+        text-align: center;
+        display: inline-block;
+    }
+    
     #bars{
         display: inline-block;
         width:4.2rem;
@@ -368,8 +390,9 @@ header nav ul li a span{
         height:3.2rem;
     }
     
-    #bars:hover{
+    #bars_label_tag:hover{
         background-color:grey;
+        cursor:pointer;
     }
     input:checked + .nav_div{
         display: block;
@@ -379,6 +402,7 @@ header nav ul li a span{
         position: relative;
         top:2rem;
         left:1rem;
+        width:14rem;
     }
     
     #about_main{
@@ -679,7 +703,7 @@ footer{
 /* begin workshops page */
 
 #workshops_header{
-    height:14rem;
+    height:auto;
 }
 
 #workshops_active{
@@ -802,9 +826,6 @@ footer{
 }
     #workshops_main{
         width:98%;
-    }
-    #workshops_header{
-        height: auto;
     }
     
     
@@ -1104,7 +1125,7 @@ footer{
 }
 
 .team_nav_div li{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     display:inline-block;
     height:78%;
     margin:0;
