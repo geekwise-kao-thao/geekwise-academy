@@ -149,7 +149,7 @@ main div p{
     margin:0;
     text-align: right;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
     display: inline-block;
     float:right;
     width:100%;
@@ -471,12 +471,12 @@ footer{
 #courses_main div p{
     text-align: left;
     text-transform: none;
-    font-weight: 100;
     margin-bottom: 1rem;
 }
 
 #courses_main > div > p{
     padding:2rem 0 2rem 0;
+    font-weight: 100;
 }
 #white_background{
     height:auto;
@@ -575,16 +575,23 @@ footer{
 }
 .courses_padding_bottom1{
     padding-bottom: 2rem;
+    font-weight: 100;
 }
 .courses_padding_bottom2{
-    padding-bottom: .3rem;
+    padding-bottom: .3rem;    
+    font-weight: 100;
 }
 .courses_padding_bottom3{
     padding-bottom: 7rem;
+    font-weight: 100;
 }
 .courses_position_top{
     position:relative;
     top:.6rem;
+}
+
+.courses_font_weight{
+    font-weight: 100;
 }
 
 /* begin media query with max-width of 930px for courses page */
@@ -597,8 +604,11 @@ footer{
     .courses_enroll{
         width:9rem
     }
-    .column2, .column3, .column4, column5, column6{
+    .column2, .column4, column5, column6{
         width:6.5rem;
+    }
+    .column3{
+        width:8.2rem;
     }
     #courses_title{
         display: none;
@@ -607,27 +617,27 @@ footer{
         border:none;
     }
     #courses_subtitle1{
-        font-size:2.5rem;
+        font-size:1.5em;
         height:auto;
         line-height: 2.5rem;
     }
     #courses_subtitle2{
-        font-size:2.5rem;
+        font-size:1.5em;
         height:auto;
         line-height: 2.5rem;
     }
     #courses_subtitle3{
-        font-size:2.5rem;
+        font-size:1.5em;
         height:auto;
         line-height: 2.5rem;
     }
     #courses_subtitle4{
-        font-size:2.5rem;
+        font-size:1.5em;
         height:auto;
         line-height: 2.5rem;
     }
     #courses_subtitle5{
-        font-size:2.5rem;
+        font-size:1.5em;
         height:auto;
         line-height: 2.5rem;
     }
@@ -640,7 +650,7 @@ footer{
 
 /* had to add another media query for courses page for phone size because layout changed from columns to rows */
 
-@media only screen and (max-width:748px){
+@media only screen and (max-width:806px){
     
 
     .column1, .column2, .column3, .column4, .column5, .column6{
