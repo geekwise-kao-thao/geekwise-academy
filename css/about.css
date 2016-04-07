@@ -500,6 +500,18 @@ footer{
 .courses_table p span{
     display: inline-block;
 }
+#courses_table1{
+        border:none;
+        background-color:#efefef;
+        color:#bbb;
+    }
+    #courses_table2{
+        background-color:#efefef;
+        color:#bbb;
+    }
+.sold_out{
+    font-size: 1.4rem;
+}
 .column1{
     height: auto;
     width:50%;
@@ -613,9 +625,7 @@ footer{
     #courses_title{
         display: none;
     }
-    #courses_table1{
-        border:none;
-    }
+    
     #courses_subtitle1{
         font-size:1.5em;
         height:auto;
@@ -645,6 +655,8 @@ footer{
     .courses_padding_bottom1{
         padding-bottom: 0rem;
     }
+    
+    
     
 }
 
