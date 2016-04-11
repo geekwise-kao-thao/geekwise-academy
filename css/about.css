@@ -48,7 +48,7 @@ header nav ul{
 .icon_div{
     display: inline-block;
     float:left;
-    height: 12.2rem;
+    height: 15.2rem;
     width:19%;
     position: relative;
     top:1rem;
@@ -831,7 +831,7 @@ footer{
 }
 #workshops_fluff p{
     padding-left:1rem;
-    width:100%;
+    width:94%;
     float:left;
 }
     #workshops_main{
