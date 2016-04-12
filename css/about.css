@@ -48,7 +48,7 @@ header nav ul{
 .icon_div{
     display: inline-block;
     float:left;
-    height: 15.2rem;
+    height: 14.2rem;
     width:19%;
     position: relative;
     top:1rem;
@@ -291,12 +291,16 @@ p{
         width:100%;
     } 
     
+    .icon_div{
+        height:20rem;
+    }
+    
 .nav_div{
     height: 40rem;
     width:100%;
     font-weight: 600;
     position:relative;
-    top:-2rem;
+    top:-9.7rem;
 }
     
 .nav_div li:nth-child(1){
@@ -379,7 +383,7 @@ header nav ul li a span{
     }
     
     #bars_label_tag:hover{
-        background-color:grey;
+        background-color:#dddddd;
         cursor:pointer;
     }
     input:checked + .nav_div{
@@ -746,6 +750,7 @@ footer{
 #workshops_fluff p span{
     position:relative;
     top:-2rem;
+    letter-spacing: 1px;
 }
 
 #workshops_main{
