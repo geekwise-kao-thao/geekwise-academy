@@ -64,30 +64,56 @@ header nav ul{
     display: inline-block;
     float: right;
     font-weight: 600;
-    margin-top:2rem;
+    position:relative;
+    top:-.5rem;
+}
+
+#about_div_navbar{
+    position:relative;
+    top:.4rem;
+    left:-7rem;
+    width:68%;
 }
 
 #icon{
     display:inline-block;
     float: left;
 }
+
+header nav ul li{
+    display:inline-block;
+    font-size:1.6rem;
+}
+
 header nav ul li:nth-child(1){
     width:13%;
+    position: relative;
+    top:-.3rem;
 }
 header nav ul li:nth-child(2){
     width:15%;
+    position: relative;
+    top:-.3rem;
 }
 header nav ul li:nth-child(3){
     width:20%;
+    position: relative;
+    top:-.3rem;
 }
 header nav ul li:nth-child(4){
     width:15%;
+    position: relative;
+    top:-.3rem;
 }
 header nav ul li:nth-child(5){
     width:13%;
+    position: relative;
+    top:-.3rem;
 }
 header nav ul li:nth-child(6){
     width:17%;
+    position: relative;
+    top:-.3rem;
 }
 
 header nav ul li a{
@@ -104,7 +130,8 @@ header nav ul li a span{
     height:auto;
     width:100%;
     position: relative;
-    top:1.3rem;
+    top:1.7rem;
+    
 }
 header nav ul li span:hover{
     color:#7A1501;
@@ -1156,21 +1183,33 @@ footer{
 
 .team_nav_div li:nth-child(1){
     width:12%;
+    position: relative;
+    top:.5rem;
 }
 .team_nav_div li:nth-child(2){
     width:14%;
+    position: relative;
+    top:.5rem;
 }
 .team_nav_div li:nth-child(3){
     width:19%;
+    position: relative;
+    top:.5rem;
 }
 .team_nav_div li:nth-child(4){
     width:14%;
+    position: relative;
+    top:.5rem;
 }
 .team_nav_div li:nth-child(5){
     width:10%;
+    position: relative;
+    top:.5rem;
 }
 .team_nav_div li:nth-child(6){
     width:14%;
+    position: relative;
+    top:.5rem;
 }
 .added_signup{
     width:12%;
@@ -1514,22 +1553,38 @@ footer{
 }
 .contact_about > a{
     color:white;
+    position: relative;
+    top:-.8rem;
 }
 .contact_courses > a{
     color:white;
+    position: relative;
+    top:-.8rem;
 }
 .contact_workshops > a{
     color:white;
+    position: relative;
+    top:-.8rem;
 }
 .contact_cohort > a{
     color:white;
+    position: relative;
+    top:-.8rem;
 }
 .contact_team > a{
     color:white;
+    position: relative;
+    top:-.8rem;
+}
+.contact_contact > a{
+    color:white;
+    position: relative;
+    top:-.8rem;
 }
 
 .added_signup a span{
     color:#7A1501;
+    
 }
 .contact_active{
     color:#F9DA0C;
